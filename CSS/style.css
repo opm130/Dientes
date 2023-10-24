@@ -1,0 +1,312 @@
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+/* FONDO */
+body{
+    background: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    
+/* TITULO */
+ .Titulos{
+    font-size:  50px;
+    font-weight: bold;
+    text-align: center;
+   padding: 10%;
+   text-shadow: 5px 3px 4px rgb(87, 36, 100);
+ }
+/*  TEXTO */
+.Texto{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    padding-top: 0;
+}
+.Subtitulo{
+    font-size:  35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+   text-shadow: 5px 3px 10px rgb(87, 36, 100);
+}
+/* PIE DE PAGINA */
+footer{
+    height: 10%;
+    background: black;
+    color: whitesmoke;
+}
+footer p{
+    text-align: center;
+}
+.botones{
+    margin-left: 40%;
+    padding-bottom: 10%;
+    
+}
+.boton{
+    padding-right: 10%;
+}
+.boton button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    
+}
+#ba{
+    border-radius:0 10px 0 10px ;
+    border: none;
+    box-shadow: 5px 5px 10px 5px black ;
+    background: url("../IMG/200w.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: whitesmoke ;
+}
+
+#bb{
+    border: none;
+    box-shadow: 5px 5px 10px 5px black ;
+    border-radius: 15px 0 15px 0;
+    background: url("../IMG/200w.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: whitesmoke ;
+}
+
+/* TUMORES Y QUISTES */
+.tablacomp{
+    border: 4px solid rgb(155,81,224);
+    margin-left: 16%;
+    margin-right: 22%;
+    border-radius: 2%;
+    box-shadow:  -5px -5px 10px #000;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(200px) rotateY(3deg);
+    transition: .2s;
+}
+.tablacomp2{
+    border: 4px solid rgb(155,81,224);
+    margin-left: 54%;
+    margin-right: 5%;
+    margin-top: -50%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px #000;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(200px) rotateY(-3deg);
+    transition: .2s;
+}
+.Textot{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding:  5%;
+    padding-top: 0;
+    
+}
+.tablacomp:hover{
+transform: perspective(100px) rotateY(0deg);
+}
+
+.tablacomp2:hover{
+    transform: perspective(100px) rotateY(0deg);
+}
+.tablacompQ{
+    border: 4px solid rgb(155,81,224);
+    margin-left: 16%;
+    margin-right: 22%;
+    border-radius: 2%;
+    box-shadow:  -5px -5px 10px #000;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(200px) rotateY(3deg);
+    transition: .2s;
+}
+.tablacompQ2{
+    border: 4px solid rgb(155,81,224);
+    margin-left: 54%;
+    margin-right: 5%;
+    margin-top: -35%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px #000;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(200px) rotateY(-3deg);
+    transition: .2s;
+}
+.tablacomp:hover{
+transform: perspective(100px) rotateY(0deg);
+}
+
+.tablacomp2:hover{
+    transform: perspective(100px) rotateY(0deg);
+}
+.tiposQ{
+    font-size: 24px;
+    color: white;
+    background:rgb(155,81,224) 82%;
+    border-radius: 15px ;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-color: white;
+    transition: .5s;
+    transition-delay: .2s;
+    opacity: 0.5;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+.tiposQ:hover{
+font-size: 24px;
+letter-spacing: 2px;
+opacity: 1;
+border: solid white 8px;
+}
+.bt{
+    margin-left: 31%;
+    padding: 3%;
+}
+.tiposT{
+    font-size: 24px;
+    color: white;
+    background:rgb(155,81,224) 82%;
+    border-radius: 15px ;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-color: white;
+    transition: .5s;
+    transition-delay: .2s;
+    opacity: 0.5;
+    padding: 0.5%;
+    margin: 2%;
+
+}
+.tiposT:hover{
+font-size: 24px;
+letter-spacing: 2px;
+opacity: 1;
+border: solid white 8px;
+}
+.espacio{
+    padding: 1%;
+}
+/* -tarjetas de mp- */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* *{
+    background: rgb(59, 2, 49);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+  
+} */
+
+/* body{
+    font-family: 'Oswald', sans-serif;
+} */
+/* h1{
+    font-size: 80px;
+
+    padding: 7%;
+} */
+
+
+ /* Cards: tipos de quistes*/
+   
+ .card {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 3.5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+.card .front img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .front h3 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0,.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    /* background: rgb(74, 90, 99); */
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.card .back .link {
+    color: #f3f3f3;
+
+}
+
+.card .back h3 {
+     font-size: 30px;
+     margin-top: 20px;
+     letter-spacing: 2px;
+
+
+}
+
+.card .back p
+{
+    letter-spacing: 1px;
+
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
