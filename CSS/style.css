@@ -200,37 +200,16 @@ border: solid white 8px;
 }
 /* -tarjetas de mp- */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-/* *{
-    background: rgb(59, 2, 49);
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-align: center;
-    padding: 0;
-    text-decoration: none;
-    margin: 0;
-  
-} */
-
-/* body{
-    font-family: 'Oswald', sans-serif;
-} */
-/* h1{
-    font-size: 80px;
-
-    padding: 7%;
-} */
-
-
  /* Cards: tipos de quistes*/
-   
+
  .card {
     position: relative;
-    width: 400px;
+    width: 25%;
     height: 350px;
-    margin: 20px;
+    margin-left: 6%;
+    margin-bottom: 5%;
     display: inline-block;
+   
 
 }
 
@@ -309,4 +288,53 @@ border: solid white 8px;
 }
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
+}
+
+/* Menu desplegable en circulo */
+
+
+.Despliega li{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    list-style: none;
+    transform-origin:150%;
+    transition: 0.5s;
+    transition-delay:calc(0.1s * var(--i)) ;
+    transform: rotate(0deg) translateX(80px);/*rotacion*/
+}
+.Despliega li img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    transform: rotate(calc(360deg/ -3*var(--i)));/*rotacion*/
+    box-shadow: 0 3px 4px black;
+    color: #000;
+    transition: 0.5s;
+
+}
+.DespliegaInfo img{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 150px;
+    height: 150px;
+    background: whitesmoke;
+   
+   
+    z-index: 10000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 3px 4px black;
+    transition: transform 1.25s ;
+}
+.Despliega.active .toggle{
+    transform: rotate(360deg);
+}
+.Despliega.active li{
+    transform: rotate(calc(360deg/3*var(--i)));
 }
