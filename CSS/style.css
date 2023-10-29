@@ -198,7 +198,7 @@ border: solid white 8px;
 .espacio{
     padding: 1%;
 }
-/* -tarjetas de mp- */
+/* -tarjetas de mp, no modificar, gracias- */
 
  /* Cards: tipos de quistes*/
 
@@ -246,7 +246,7 @@ border: solid white 8px;
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    /* background: rgb(74, 90, 99); */
+    background: rgb(119, 78, 159);
     padding: 15px;
     color: #f3f3f3;
     display: flex;
