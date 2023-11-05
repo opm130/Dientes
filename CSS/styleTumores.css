@@ -9,6 +9,22 @@
     font-family: 'Oswald', sans-serif;
 }
 /* FONDO */
+#fibromaC{
+    background-image: url(../IMG/fibroma\ cemento\ osificante.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 110% 700%;
+}
+#mixoma{
+    background-image: url(../IMG/fondo_mixoma.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 110% 700%;}
+#fibromaO{
+        background-image: url();
+        color: white;
+        background-repeat: no-repeat;
+        background-size: 110% 700%;}
 #escamoso{
     background-image: url(../IMG/fondo\ tumor\ escamoso.jpg);
     color: white;
@@ -59,7 +75,7 @@
     background-size: 110% 700%;
 }
 #odontoma{
-    background-image: url(../IMG/odontoma.png);
+    background-image: url(../IMG/odontomafondoo.png);
     color: white;
     background-repeat: no-repeat;
     background-size: 110% 700%;
@@ -81,7 +97,13 @@
     color: white;
     background-repeat: no-repeat;
     background-size: 110% 700%;
+    
 }
+#cementoblastoma{
+    background-image: url(../IMG/IMG\ 2/cementoblastoma.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover}
 /* TITULO */
  .Titulo_typing{
     font-size:  50px;

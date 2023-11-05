@@ -14,11 +14,16 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     } */
+    #tumores{
+        background: url(../IMG/adenomatoide.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     #epiteliales{
         background: url(../IMG/fondo\ tumor\ escamoso.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
     }
     #tiposquiste{
     background: url("../IMG/fondo2.jpg");
