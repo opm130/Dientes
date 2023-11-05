@@ -13,7 +13,7 @@
     background-image: url(../IMG/fibroma\ cemento\ osificante.png);
     color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-size: cover;
 }
 #mixoma{
     background-image: url(../IMG/fondo_mixoma.jpg);
@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: 110% 700%;}
 #fibromaO{
-        background-image: url();
+        background-image: url(../IMG/fibroma\ odontogenico.jpg);
         color: white;
         background-repeat: no-repeat;
         background-size: 110% 700%;}
