@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/estilos.css">
+    
     <script src="../JS/jquery.js"></script>
     <title>Atlas</title>
+    <script src="../JS/three.js"></script>
+    <script src="../JS/TweenMax.min.js"></script>
+    <script src="../JS/bas.js"></script>
+    <script src="../JS/OrbitControls.js"></script>
+    <script src="../JS/lib-particle.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
     <script>
-        $(document).ready(function(){
+         $(document).ready(function(){
             $(".Titulos").hide().fadeIn(2000);
             $(".Texto").hide().fadeIn(5500);
             $(".botones").hide().fadeIn(10500);
         });
-        </script>
+        </script>  
+        
 </head>
 <body class="Cuerpo">
-    
+    <div id="three-container"></div>
 <main>
     <h1 class="Titulos">
         ATLAS DE QUISTES Y TUMORES ODONTOGÉNICOS
