@@ -108,7 +108,7 @@ footer p{
 .Textot{
     font-size: 20px;
     font-weight: normal;
-    text-align: left;
+    text-align: justify;
     padding:  5%;
     padding-top: 0;
     
@@ -116,7 +116,7 @@ footer p{
 .Textott{
     font-size: 20px;
     font-weight: normal;
-    text-align: right;
+    text-align: justify;
     padding:  5%;
     padding-top: 0;
     

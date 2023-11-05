@@ -234,7 +234,7 @@
 .Texto{
     font-size: 25px;
     font-weight: normal;
-    text-align: center;
+    text-align: justify;
     padding:  10%;
     padding-top: 0;
 }
