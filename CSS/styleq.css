@@ -99,14 +99,14 @@
     box-shadow: 2px 3px 5px black;
  }
 /* cinta opciones del ortoqueratinizado */
- .OpcionesOrto{
+ .OpcionesAdenomatoide{
     position: absolute;
     left: 12%;
     width: 85%;
     cursor: pointer;
  }
 
- .OpcionesOrto li{
+ .OpcionesAdenomatoide li{
     display: inline;
     padding: 10px;
     align-items: center;
@@ -115,9 +115,11 @@
     text-shadow: 5px  3px 10px rgb(87, 36, 100);
     transition: .2s;
  }
- .OpcionesOrto li:hover{
+ .OpcionesAdenomatoide li:hover{
     box-shadow: 2px 3px 5px black;
+    
  }
+
  
  /* definicion */
  .Definicion{
@@ -131,7 +133,7 @@
     left: 22%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
-    
+        
  }
  .Localizacion{
     width: 55%;
@@ -140,10 +142,11 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
+    top: 43%;
     left: 22%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
  }
  .Edad{
     width: 45%;
@@ -156,6 +159,7 @@
     left: 22%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    background-image: linear-gradient(to right, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245, 0.7));
  }
  .Sexo{
     width: 60%;
@@ -168,6 +172,7 @@
     left: 22%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
  }
  .Clinica{
     width:55%;
@@ -176,10 +181,11 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 22.5%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
  }  
  .Patogenesis{
     width:55%;
@@ -192,6 +198,7 @@
     left: 22.5%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
  }
  .Inmunohistoquimica{
     width:55%;
@@ -200,10 +207,11 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 22.5%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
  }
  .Tratamiento{
     width:55%;
@@ -212,10 +220,11 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 22.5%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
  }
 .Pronostico{
     width:55%;
@@ -228,6 +237,7 @@
     left: 22.5%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
+    
 }
  
 /*  TEXTO */
