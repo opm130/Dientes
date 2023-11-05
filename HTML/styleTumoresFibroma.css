@@ -1,0 +1,366 @@
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+/* FONDO */
+body{
+    background-image: url(../IMG/Fondo\ epitelial.png);
+    background-repeat: no-repeat;
+    background-size: 110% 700%;
+}
+/* TITULO */
+ .Titulo_typing{
+    font-size:  50px;
+    font-weight: bold;
+    text-align: center;
+   padding: 2%;
+   text-shadow: 5px 3px 10px rgb(87, 36, 100);
+   animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
+ }
+ /* .Titulo_typing2{
+    font-size:  50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 53%;
+   padding: 2%;
+   animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
+   text-decoration: none;
+ } */
+ a{
+    color: black;
+    text-shadow: 5px 3px 10px rgb(87, 36, 100);
+ }
+/* keyframes*/
+@keyframes teclear{
+    from{
+        clip-path: polygon(0 0, 0 0, 0 100%,  0% 100%);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100%  100%, 0% 100%);
+    }
+}
+@keyframes efecto{
+    50% {
+        border-color: transparent;
+    }
+}
+.Subtitulo_typing{
+    font-size:  35px;
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-align: center;
+   text-shadow: 5px 3px 10px rgb(87, 36, 100);
+   animation: teclear 4s steps(30), efecto .9s step-end infinite alternate;
+}
+   @keyframes teclear2{
+    from{
+        clip-path: polygon(0 0, 0 0, 0 100%,  0% 100%);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100%  100%, 0% 100%);
+    }
+}
+@keyframes efecto2{
+    50% {
+        border-color: transparent;
+    }
+}
+
+ /* Cinta de opciones*/
+ .Opciones{
+    position: absolute;
+    left: 10%;
+    width: 92%;
+    cursor: pointer;
+ }
+
+ .Opciones li{
+    display: inline;
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: normal;
+    text-shadow: 5px  3px 10px rgb(87, 36, 100);
+    transition: .2s;
+ }
+ .Opciones li:hover{
+    box-shadow: 2px 3px 5px black;
+ }
+
+ .Opciones2{
+    position: absolute;
+    left: 18%;
+    width: 66%;
+    cursor: pointer;
+ }
+
+ .Opciones2 li{
+    display: inline;
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: normal;
+    text-shadow: 5px  3px 10px rgb(87, 36, 100);
+    transition: .2s;
+ }
+ .Opciones2 li:hover{
+    box-shadow: 2px 3px 5px black;
+ }
+ /* definicion */
+ .Definicion{
+    width: 55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    text-align: justify;
+    text-shadow: 1px  1px 3px white;
+    
+ }
+ .Localizacion{
+    width: 55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    text-align: justify;
+ }
+ .Edad{
+    width: 45%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    text-align: justify;
+ }
+ .Sexo{
+    width: 60%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    text-align: justify;
+ }
+ .Clinica{
+    width:55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22.5%;
+    text-align: justify;
+ }  
+ .Inmunohistoquimica{
+    width:55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22.5%;
+    text-align: justify;
+ }
+ .Patogenesis{
+    width:55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22.5%;
+    text-align: justify;
+ }
+ .Tratamiento{
+    width:55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22.5%;
+    text-align: justify;
+ }
+.Pronostico{
+    width:55%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 22.5%;
+    text-align: justify;
+}
+ 
+/*  TEXTO */
+.Texto{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    padding-top: 0;
+}
+.Subtitulo{
+    font-size:  35px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+   text-shadow: 5px 3px 10px rgb(87, 36, 100);
+}
+/* PIE DE PAGINA */
+footer{
+    height: 10%;
+    background: black;
+    color: whitesmoke;
+}
+footer p{
+    text-align: center;
+}
+.botones{
+    margin-left: 40%;
+    padding-bottom: 10%;
+    
+}
+.boton{
+    padding-right: 10%;
+}
+.boton button{
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    
+}
+#ba{
+    border-radius:0 10px 0 10px ;
+    z-index: 1;
+    
+    background: url("../IMG/tru.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#bb{
+    border: none;
+    box-shadow: 5px 5px 10px 5px red ;
+    border-radius: 15px 0 15px 0;
+    background: url("../IMG/llenar.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: whitesmoke ;
+}
+.Textot{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding:  5%;
+    padding-top: 0;
+}
+  .Despliega li{
+    position: absolute;
+    top: 76%;
+    left: 40%;
+    list-style: none;
+    transform-origin:150%;
+    transition: 0.5s;
+    transition-delay:calc(0.1s * var(--i)) ;
+    transform: rotate(0deg) translateX(80px);/*rotacion*/
+}
+.Despliega li img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background: white;
+    transform: rotate(calc(360deg/ -5*var(--i)));/*rotacion*/
+    box-shadow: 0 3px 4px black;
+    color: #000;
+    transition: 0.5s;
+    
+
+}
+.DespliegaInfo img{
+    position: absolute;
+    top: 73%;
+    left: 38%;
+    width: 150px;
+    height: 150px;
+    background: whitesmoke;
+    background-size: 100% 100%;
+    margin-left: 6%;   
+   
+    z-index: 10;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 0 3px 4px black;
+    transition: transform 1.25s ;
+}
+.Despliega.active .toggle{
+    transform: rotate(360deg);
+}
+.Despliega.active li{
+    transform: rotate(calc(360deg/5*var(--i)));
+    position: absolute;
+    top: 70%;
+    left: 28.5%;
+    transform-origin: 165%;
+}
+.Despliega.active li img{
+    width: 180px;
+    height: 180px;
+}
+@keyframes waveAnim {
+   
+    0%, 100% {
+        
+      clip-path: polygon(
+        0% 47%,
+        10% 48%,
+        33% 54%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+       
+      clip-path: polygon(0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+      );
+    }
+  }

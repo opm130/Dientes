@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumores Odontogenicos Mesenquimales Mixoma</title>
+    <link rel="stylesheet" href="styleTumorMetastastico.css">
+    <script src="../JS/jquery.js"></script>
+    <link rel="stylesheet" href="../JS/lightbox.min.css">
+    <script src="../JS/lightbox-plus-jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+        $(".Definicion").hide()
+        $(".Localizacion").hide()
+        $(".Edad").hide()
+        $(".Sexo").hide()
+        $(".Clinica").hide()
+        $(".Patogenesis").hide()
+        $(".Tratamiento").hide()
+        $(".Pronostico").hide()
+        $(".Inmunohistoquimica").hide()
+
+        $("#Definicion").click(function(){
+            $(".Definicion").fadeIn(500).mouseout(function(){
+            $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Localizacion").click(function(){
+            $(".Localizacion").fadeIn(500).mouseout(function(){
+            $(".Localizacion").slideUp(500)
+        })
+        })
+        $("#Edad").click(function(){
+            $(".Edad").fadeIn(500).mouseout(function(){
+            $(".Edad").slideUp(500)
+        })
+        })
+        $("#Sexo").click(function(){
+            $(".Sexo").fadeIn(500).mouseout(function(){
+            $(".Sexo").slideUp(500)
+        })
+        })
+        $("#Clinica").click(function(){
+            $(".Clinica").fadeIn(500).mouseout(function(){
+            $(".Clinica").slideUp(500)
+        })
+        })
+        $("#Inmunohistoquimica").click(function(){
+            $(".Inmunohistoquimica").fadeIn(500).mouseout(function(){
+            $(".Inmunohistoquimica").slideUp(500)
+        })
+        })
+        $("#Patogenesis").click(function(){
+            $(".Patogenesis").fadeIn(500).mouseout(function(){
+            $(".Patogenesis").slideUp(500)
+        })
+        })
+        
+        $("#Tratamiento").click(function(){
+            $(".Tratamiento").fadeIn(500).mouseout(function(){
+            $(".Tratamiento").slideUp(500)
+        })
+        })
+        $("#Pronostico").click(function(){
+            $(".Pronostico").fadeIn(500).mouseout(function(){
+            $(".Pronostico").slideUp(500)
+        })
+        })
+        $(".DespliegaInfo").click(function(){
+            $(".Imagenes").fadeIn(500)
+        })
+        });
+        </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="Titulo_typing">
+            Tumores Odontogenicos Mesenquimales
+        </h1>
+        <p class="Subtitulo_typing">
+            Mixoma
+        </p>
+    </header>
+    <ul class="Opciones2">
+        <li id="Definicion">
+            Definición
+        </li>
+        <li id="Localizacion">
+            Localizacion
+        </li>
+        <li id="Edad">
+            Edad
+        </li>
+        <li id="Sexo">
+            Sexo
+        </li>
+        <li id="Clinica">
+            Clinica
+        </li>
+        <li id="Inmunohistoquimica">
+            Inmunohistoquimica
+        </li>
+        <li id="Patogenesis">
+            Patogenesis
+        </li>
+        <li id="Tratamiento">
+            Tratamiento
+        </li>
+        <li id="Pronostico">
+            Pronostico
+        </li>
+    </ul>
+    <div class="informacion">
+        <p class="Definicion">
+            Es una neoplasia benigna mesenquimal, localmente agresivo por aumento de la desregulación antiapoptótica, caracterizada por células  estrelladas y fusiformes dispersas en una abundante matriz extracelular mixoide.  
+        </p>
+        <p class="Localizacion">
+            Se localiza en mandíbula, zona de premolares y molares   
+        </p>
+        <p class="Edad">
+            2 / 3 década 
+        </p>
+        <p class="Sexo">
+            Mayor  prevalencia en mujeres
+        </p>
+        <p class="Clinica">
+            Crecimiento lento, asintomático, causando destrucción y expansión ósea.	
+        </p>
+        <p class="Inmunohistoquimica">
+            CK19(+), Vimentina (+), AML (+), PS100(-) CD34(+), Ki67%
+        </p>
+        <p class="Patogenesis">
+            Activación de la vía MAPK/ERK, esta vía de inhibición puede tener el potencial de reducir el crecimiento tumoral
+        </p>
+        <p class="Tratamiento">
+            Lesión pequeña curetaje con márgenes óseos. Lesión grande recesión extensa con márgenes, debido a que tienden a inﬁltrar el hueso circundante.
+        </p>
+        <p class="Pronostico">
+            Bueno, recurrencia 25%: mínimo potencial de transformación maligna. 
+        </p>
+    </div>
+    <div class="Despliega">
+        <!-- Imagen de inicio -->
+        <div class="DespliegaInfo">
+            <img src="../IMG/clickhere.gif" alt="">
+        </div>
+        <!-- Imagenes que despliega -->
+        <div class="Imagenes">
+        <li id="uno" style="--i:0">
+            <a title="Se observa imagen radiolúcida con bordes definidos en zona maxilar izquierda. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia. " 
+            href="../IMG/mixoma radiologia 1.png" data-lightbox="galeria1" ><img src="../IMG/mixoma radiologia 1.png"></a>
+        </li>
+        <li id="dos" style="--i:1">
+            <a title="(A) corte transversal (B) corte coronal (C) corte sagital. Se observa masa lobulada  hipodensa con bordes definidos en la región maxilar superior izquierdo. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG/mixoma radiologia 2.png" data-lightbox="galeria1"><img src="../IMG/mixoma radiologia 2.png"></a>
+        </li>
+        <li id="tres" style="--i:2">
+            <a title="Lesión tumoral benigna mesenquimal, se caracterizan por ser estrelladas y fusiformes.células embebidas en una matriz extracelular ricamente mixoide, con poco colágeno; aquellos casos con mayores cantidades de colágeno puede denominarse mixofibroma.. Fuente tomada de : Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG/mixoma histopatologia 1.png" data-lightbox="galeria1" ><img src="../IMG/mixoma histopatologia 1.png" alt=""></a>
+        </li>
+        <li id="cuatro" style="--i:3">
+            <a title="Vista de mayor aumento, se observa células fusiformes y fibrillas de colágeno. En el centro de la imagen se observa un pequeño resto epitelial odontogénico. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG/mixoma histopatologia 2.png" data-lightbox="galeria1" ><img src="../IMG/mixoma histopatologia 2.png" alt="" srcset=""></a>
+        </li>
+    </div>
+    </div>
+    <script>
+        var toggle=document.querySelector('.DespliegaInfo');
+        var menu=document.querySelector('.Despliega');
+        toggle.onclick=function(){
+            menu.classList.toggle('active');
+        }
+        
+    </script>
+</body>
+</html>

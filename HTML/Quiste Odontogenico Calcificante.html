@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiste Odontogénico Calcificante</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/jquery.js"></script>
+    <link rel="stylesheet" href="../JS/lightbox.min.css">
+    <script src="../JS/lightbox-plus-jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+        $(".Definicion").hide()
+        $(".Localizacion").hide()
+        $(".Edad").hide()
+        $(".Sexo").hide()
+        $(".Clinica").hide()
+        $(".Patogenesis").hide()
+        $(".Tratamiento").hide()
+        $(".Pronostico").hide()
+        // $(".Imagenes").hide()
+
+        $("#Definicion").click(function(){
+            $(".Definicion").fadeIn(500).mouseout(function(){
+            $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Localizacion").click(function(){
+            $(".Localizacion").fadeIn(500).mouseout(function(){
+            $(".Localizacion").slideUp(500)
+        })
+        })
+        $("#Edad").click(function(){
+            $(".Edad").fadeIn(500).mouseout(function(){
+            $(".Edad").slideUp(500)
+        })
+        })
+        $("#Sexo").click(function(){
+            $(".Sexo").fadeIn(500).mouseout(function(){
+            $(".Sexo").slideUp(500)
+        })
+        })
+        $("#Clinica").click(function(){
+            $(".Clinica").fadeIn(500).mouseout(function(){
+            $(".Clinica").slideUp(500)
+        })
+        })
+        $("#Patogenesis").click(function(){
+            $(".Patogenesis").fadeIn(500).mouseout(function(){
+            $(".Patogenesis").slideUp(500)
+        })
+        })
+        
+        $("#Tratamiento").click(function(){
+            $(".Tratamiento").fadeIn(500).mouseout(function(){
+            $(".Tratamiento").slideUp(500)
+        })
+        })
+        $("#Pronostico").click(function(){
+            $(".Pronostico").fadeIn(500).mouseout(function(){
+            $(".Pronostico").slideUp(500)
+        })
+        })
+        $(".DespliegaInfo").click(function(){
+            $(".Imagenes").fadeIn(500)
+        })
+        });
+        </script>
+</head>
+
+<body id="pagina2">
+    <header>
+        <h1 class="Titulo_typing">
+            Quiste Odontogénico Calcificante
+        </h1>
+    </header>
+    <ul class="Opciones">
+        <li id="Definicion">
+            Definición
+        </li>
+        <li id="Localizacion">
+            Localizacion
+        </li>
+        <li id="Edad">
+            Edad
+        </li>
+        <li id="Sexo">
+            Sexo
+        </li>
+        <li id="Clinica">
+            Clinica
+        </li>
+        <li id="Patogenesis">
+            Patogenesis
+        </li>
+        <li id="Tratamiento">
+            Tratamiento
+        </li>
+        <li id="Pronostico">
+            Pronostico
+        </li>
+    </ul>
+    <div class="informacion">
+        <p class="Definicion">
+            Quiste odontogénico del desarrollo caracterizado histológicamente por células fantasma que a menudo se calcifican.
+        </p>
+        <p class="Localizacion">
+            Se manifiesta en igual proporción entre los maxilares. 
+        </p>
+        <p class="Edad">
+            Segunda y tercera década de vida
+        </p>
+        <p class="Sexo">
+            No tiene preferencia de sexo.
+        </p>
+        <p class="Clinica">
+            Asintomáticos. Lesiones intraóseas suelen causar expansión cortical e inflamación de la submucosa.        
+        </p>
+        <p class="Patogenesis">
+            Tiene mutaciones en el gen CTNNB1, que codifica βcatenina, compartida con craneofaringioma adamantinomatoso y pilomatrixoma.
+        </p>
+        <p class="Tratamiento">
+            Enucleación, legrado o extirpación quirúrgica conservadora. 
+        </p>
+        <p class="Pronostico">
+            Recurrencia del 8%.
+        </p>
+    </div>
+    <div class="Despliega">
+        <!-- Imagen de inicio -->
+        <div class="DespliegaInfo">
+            <img src="../IMG/clickhere.gif" alt="">
+        </div>
+        <!-- Imagenes que despliega -->
+        <div class="Imagenes">
+        <li id="uno" style="--i:0">
+            <a title="Se observa lesión radiolúcida unilocular circunscrita que se extiende desde la línea media reabsorbiendo raíces dentales. Fuente tomada de: https://doi.org/10.4322/bds.2023.e3823" 
+            href="../IMG 2/quiste odontogenico calcificante radiologia 1.png" data-lightbox="galeria1" ><img src="../IMG 2/quiste odontogenico calcificante radiologia 1.png" width="400px" height="400px"></a>
+        </li>
+        <li id="dos" style="--i:1">
+            <a title="Se observa lesión de radiolucidez mixta bien definida.La expansión cortical es común.  Fuente tomada de: WHO Classification of Tumours Editorial Board. Head and neck tumours. Lyon (France): International Agency for Research on Cancer; 2022. (WHO classification of tumours series, 5th ed.; vol. 9)." 
+            href="../IMG 2/quiste odontogenico calcificante radiologia 2.png" data-lightbox="galeria1"><img src="../IMG 2/quiste odontogenico calcificante radiologia 2.png" width="400" height="400"></a>
+        </li>
+        <li id="tres" style="--i:2">
+            <a title="" 
+            href="../IMG 2/quiste odontogenico calcificante histopatologia 1.png" data-lightbox="galeria1" ><img src="../IMG 2/quiste odontogenico calcificante histopatologia 1.png" alt=""></a>
+        </li>
+        <li id="cuatro" style="--i:3">
+            <a title="Se observa pared quística revestida por epitelio ameloblástico de polaridad invertida con abundantes células fantasma. Estroma subepitelial fibrohialinizado con depósitos de sustancia dentinoide rosada y calcificaciones distróficas**.  Fuente tomada de: Fotos cortesía:  Archivo del Servicio de Patología Oral y Maxilofacial de la Facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/quiste odontogenico calcificante histopatologia 2.png" data-lightbox="galeria1" ><img src="../IMG 2/quiste odontogenico calcificante histopatologia 2.png" alt="" srcset=""></a>
+        </li>
+        <li id="cinco" style="--i:4">
+            <a title="Se observa pared quística revestida por epitelio ameloblástico de polaridad invertida con abundantes células fantasma. Estroma subepitelial fibrohialinizado con depósitos de sustancia dentinoide rosada y calcificaciones distróficas.  Fuente tomada de: Fotos cortesía:  Archivo del Servicio de Patología Oral y Maxilofacial de la Facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/quiste odontogenico calcificante histopatologia 3.png" data-lightbox="galeria1" ><img src="../IMG 2/quiste odontogenico calcificante histopatologia 3.png" alt="" srcset=""></a>
+        </li>
+        <li id="seis" style="--i:5">
+            <a title="Imagen B Se observan células columnares basales con disposición en empalizada y polaridad nuclear invertida (flecha). Imagen D se observan Células epiteliales y fantasmas en la cápsula fibrosa (flechas). Fuente tomada de: https://doi.org/10.4322/bds.2023.e3823" 
+            href="../IMG 2/quiste odontogenico calcificante histopatologia 4.png" data-lightbox="galeria1" ><img src="../IMG 2/quiste odontogenico calcificante histopatologia 4.png" alt="" srcset=""></a>
+        </li>
+    </div>
+    </div>
+    <script>
+        var toggle=document.querySelector('.DespliegaInfo');
+        var menu=document.querySelector('.Despliega');
+        toggle.onclick=function(){
+            menu.classList.toggle('active');
+        }
+        
+    </script>
+    
+</body>
+</html>

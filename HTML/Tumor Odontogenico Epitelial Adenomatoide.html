@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumores Odontogenicos Benignos Epiteliales: Adenomatoide</title>
+    <link rel="stylesheet" href="styleTumores.css">
+    <script src="../JS/jquery.js"></script>
+    <link rel="stylesheet" href="../JS/lightbox.min.css">
+    <script src="../JS/lightbox-plus-jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+        $(".Definicion").hide()
+        $(".Localizacion").hide()
+        $(".Edad").hide()
+        $(".Sexo").hide()
+        $(".Clinica").hide()
+        $(".Patogenesis").hide()
+        $(".Tratamiento").hide()
+        $(".Pronostico").hide()
+        $(".Inmunohistoquimica").hide()
+
+        $("#Definicion").click(function(){
+            $(".Definicion").fadeIn(500).mouseout(function(){
+            $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Localizacion").click(function(){
+            $(".Localizacion").fadeIn(500).mouseout(function(){
+            $(".Localizacion").slideUp(500)
+        })
+        })
+        $("#Edad").click(function(){
+            $(".Edad").fadeIn(500).mouseout(function(){
+            $(".Edad").slideUp(500)
+        })
+        })
+        $("#Sexo").click(function(){
+            $(".Sexo").fadeIn(500).mouseout(function(){
+            $(".Sexo").slideUp(500)
+        })
+        })
+        $("#Clinica").click(function(){
+            $(".Clinica").fadeIn(500).mouseout(function(){
+            $(".Clinica").slideUp(500)
+        })
+        })
+        $("#Inmunohistoquimica").click(function(){
+            $(".Inmunohistoquimica").fadeIn(500).mouseout(function(){
+            $(".Inmunohistoquimica").slideUp(500)
+        })
+        })
+        $("#Patogenesis").click(function(){
+            $(".Patogenesis").fadeIn(500).mouseout(function(){
+            $(".Patogenesis").slideUp(500)
+        })
+        })
+        
+        $("#Tratamiento").click(function(){
+            $(".Tratamiento").fadeIn(500).mouseout(function(){
+            $(".Tratamiento").slideUp(500)
+        })
+        })
+        $("#Pronostico").click(function(){
+            $(".Pronostico").fadeIn(500).mouseout(function(){
+            $(".Pronostico").slideUp(500)
+        })
+        })
+        $(".DespliegaInfo").click(function(){
+            $(".Imagenes").fadeIn(500)
+        })
+        });
+        </script>
+</head>
+
+<body id="adenomatoide">
+    <header>
+        <h1 class="Titulo_typing">
+            Tumores Odontogenicos Benignos Epiteliales 
+        </h1>
+        <p class="Subtitulo_typing">
+            Adenomatoide
+        </p>
+    </header>
+    
+    <ul class="OpcionesAdenomatoide">
+        <li id="Definicion">
+            Definición
+        </li>
+        <li id="Localizacion">
+            Localizacion
+        </li>
+        <li id="Edad">
+            Edad
+        </li>
+        <li id="Sexo">
+            Sexo
+        </li>
+        <li id="Clinica">
+            Clinica
+        </li>
+        <li id="Inmunohistoquimica">
+            Inmunohistoquimica
+        </li>
+        <li id="Patogenesis">
+            Patogenesis
+        </li>
+        <li id="Tratamiento">
+            Tratamiento
+        </li>
+        <li id="Pronostico">
+            Pronostico
+        </li>
+    </ul>
+    <div class="informacion">
+        <p class="Definicion">
+            Es un tumor odontogénico epitelial encapsulado benigno, muestra diferenciación ductal, tiene un comportamiento muy benigno 
+        </p>
+        <p class="Localizacion">
+            Región anterior asociados a un diente permanente no erupcionado generalmente el canino maxilar superior y mandibular. 
+        </p>
+        <p class="Edad">
+            2da y 3ra década
+        </p>
+        <p class="Sexo">
+            2/3 casos en mujeres
+        </p>
+        <p class="Clinica">
+            Asintomático y todos tienen potencial de crecimiento limitado y muchos representan un hamartoma 
+        </p>
+        <p class="Inmunohistoquimica">
+            BCL2 (+) y Ki67 menor del 1%.
+        </p>
+        <p class="Patogenesis">
+            Las mutaciones KRAS G12V y G12R son detectado en aproximadamente el 70% de los casos esporádicos
+        </p>
+        <p class="Tratamiento">
+            Enucleación quirúrgica 
+        </p>
+        <p class="Pronostico">
+            Bueno, no tiene riesgo de recurrencia. 
+        </p>
+    </div>
+    <div class="Despliega">
+        <!-- Imagen de inicio -->
+        <div class="DespliegaInfo">
+            <img src="../IMG/clickhere.gif" alt="">
+        </div>
+        <!-- Imagenes que despliega -->
+        <div class="Imagenes">
+        <li id="uno" style="--i:0">
+            <a title="Corte coronal, se observa masa lobulada hipodensa con bordes definidos en la región maxilar superior del diente 13. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y  maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/tumor adenomatoide radiologia 1.png" data-lightbox="galeria1" ><img src="../IMG 2/tumor adenomatoide radiologia 1.png"></a>
+        </li>
+        <li id="dos" style="--i:1">
+            <a title="Cortes sagitales, se observa masa lobulada hipodensa con bordes definidos en la región maxilar superior del diente 13, donde presenta puntos hiperdensos asociado a calcificación. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y  maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/tumor adenomatoide radiologia 2.png" data-lightbox="galeria1"><img src="../IMG 2/tumor adenomatoide radiologia 2.png"></a>
+        </li>
+        <li id="tres" style="--i:2">
+            <a title="Lesión bien definida, expansiva simétrica que involucra la región maxilar superior derecho del diente 13. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/tumor adenomatoide radiologia 3.png" data-lightbox="galeria1" ><img src="../IMG 2/tumor adenomatoide radiologia 3.png" alt=""></a>
+        </li>
+        <li id="cuatro" style="--i:3">
+            <a title="Depósitos de material eosinofílico/ dentomiloide y calcificaciones ovaladas tipo distróficas e irregulares. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/tumor adenomatoide histopatologia 1.png" data-lightbox="galeria1" ><img src="../IMG 2/tumor adenomatoide histopatologia 1.png" alt="" srcset=""></a>
+        </li>
+        <li id="cinco" style="--i:4">
+            <a title="Lesión de componente epitelial fusocelular con disposición arquitectural en nidos.  Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/tumor adenomatoide histopatologia 2.png" data-lightbox="galeria1" ><img src="../IMG 2/tumor adenomatoide histopatologia 2.png" alt="" srcset=""></a>
+        </li>
+        <li id="seis" style="--i:5">
+            <a title="Presencia de estructuras ductales quísticas revestidas por epitelio cuboidal y columnar distantes del borde luminal, asociadas a estructuras tubulares de menor tamaño y algunas de aspecto pseudo rosetoide (punta de flecha). A nivel estromal nodos de células epiteliales fusocelulares. Fuente tomada de: Fotos del archivo del laboratorio de patología oral y maxilofacial de la facultad de Odontología de la Universidad Nacional de Colombia." 
+            href="../IMG 2/tumor adenomatoide histopatologia 3.png" data-lightbox="galeria1" ><img src="../IMG 2/tumor adenomatoide histopatologia 3.png" alt="" srcset=""></a>
+        </li>
+    </div>
+    </div>
+    <script>
+        var toggle=document.querySelector('.DespliegaInfo');
+        var menu=document.querySelector('.Despliega');
+        toggle.onclick=function(){
+            menu.classList.toggle('active');
+        }
+        
+    </script>
+</body>
+</html>

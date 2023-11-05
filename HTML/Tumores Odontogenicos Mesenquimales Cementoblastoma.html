@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumores Odontogenicos Mesenquimales Cementoblastoma</title>
+    <link rel="stylesheet" href="styleTumoresPrimordial.css">
+    <script src="../JS/jquery.js"></script>
+    <link rel="stylesheet" href="../JS/lightbox.min.css">
+    <script src="../JS/lightbox-plus-jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+        $(".Definicion").hide()
+        $(".Localizacion").hide()
+        $(".Edad").hide()
+        $(".Sexo").hide()
+        $(".Clinica").hide()
+        $(".Patogenesis").hide()
+        $(".Tratamiento").hide()
+        $(".Pronostico").hide()
+        // $(".Inmunohistoquimica").hide()
+
+        $("#Definicion").click(function(){
+            $(".Definicion").fadeIn(500).mouseout(function(){
+            $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Localizacion").click(function(){
+            $(".Localizacion").fadeIn(500).mouseout(function(){
+            $(".Localizacion").slideUp(500)
+        })
+        })
+        $("#Edad").click(function(){
+            $(".Edad").fadeIn(500).mouseout(function(){
+            $(".Edad").slideUp(500)
+        })
+        })
+        $("#Sexo").click(function(){
+            $(".Sexo").fadeIn(500).mouseout(function(){
+            $(".Sexo").slideUp(500)
+        })
+        })
+        $("#Clinica").click(function(){
+            $(".Clinica").fadeIn(500).mouseout(function(){
+            $(".Clinica").slideUp(500)
+        })
+        })
+        // $("#Inmunohistoquimica").click(function(){
+        //     $(".Inmunohistoquimica").fadeIn(500).mouseout(function(){
+        //     $(".Inmunohistoquimica").slideUp(500)
+        // })
+        // })
+        $("#Patogenesis").click(function(){
+            $(".Patogenesis").fadeIn(500).mouseout(function(){
+            $(".Patogenesis").slideUp(500)
+        })
+        })
+        
+        $("#Tratamiento").click(function(){
+            $(".Tratamiento").fadeIn(500).mouseout(function(){
+            $(".Tratamiento").slideUp(500)
+        })
+        })
+        $("#Pronostico").click(function(){
+            $(".Pronostico").fadeIn(500).mouseout(function(){
+            $(".Pronostico").slideUp(500)
+        })
+        })
+        $(".DespliegaInfo").click(function(){
+            $(".Imagenes").fadeIn(500)
+        })
+        });
+        </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="Titulo_typing">
+            Tumores Odontogenicos Mesenquimales
+        </h1>
+        <p class="Subtitulo_typing">
+            Cementoblastoma
+        </p>
+    </header>
+    <ul class="Opciones2">
+        <li id="Definicion">
+            Definición
+        </li>
+        <li id="Localizacion">
+            Localizacion
+        </li>
+        <li id="Edad">
+            Edad
+        </li>
+        <li id="Sexo">
+            Sexo
+        </li>
+        <li id="Clinica">
+            Clinica
+        </li>
+        <!-- <li id="Inmunohistoquimica">
+            Inmunohistoquimica
+        </li> -->
+        <li id="Patogenesis">
+            Patogenesis
+        </li>
+        <li id="Tratamiento">
+            Tratamiento
+        </li>
+        <li id="Pronostico">
+            Pronostico
+        </li>
+    </ul>
+    <div class="informacion">
+        <p class="Definicion">
+            Es una neoplasia benigna que forma una masa redondeada de cemento en la raíz de un diente. 
+        </p>
+        <p class="Localizacion">
+            Se desarrolla en el tercio apical de la raíz del diente, con mayor frecuencia en la mandíbula posterior, generalmente en el primer molar permanente.
+        </p>
+        <p class="Edad">
+            2da / 3ra década   
+        </p>
+        <p class="Sexo">
+            Igual en hombres y mujeres   
+        </p>
+        <p class="Clinica">
+            Crecimiento lento con expansión dolorosa de la mandíbula. El diente asociado es vital en aproximadamente el 80% de los casos. La reabsorción radicular ocurre en alrededor de dos tercios de los casos
+        </p>
+        <!-- <p class="Inmunohistoquimica">
+            CKAE1/AE3 (+), CK 5(+), CK14(+), CK19(+), CK18(-) y CK20(-), VIMENTINA (+) AMS (+), PS 100 (-), ALPHA-SMA (-), Ki67 (<)2%
+        </p> -->
+        <p class="Patogenesis">
+            Alberga reordenamiento FOS y muestra sobreexpresión c-FOS
+        </p>
+        <p class="Tratamiento">
+            Exodoncia del diente asociado y el curetaje.
+        </p>
+        <p class="Pronostico">
+            No suele repetirse después de la extracción del diente asociado.Recurrencia después de la extracción incompleta o intento de conservación del diente.
+maligna
+        </p>
+    </div>
+    <div class="Despliega">
+        <!-- Imagen de inicio -->
+        <div class="DespliegaInfo">
+            <img src="../IMG/clickhere.gif" alt="">
+        </div>
+        <!-- Imagenes que despliega -->
+        <div class="Imagenes">
+        <li id="uno" style="--i:0">
+            <a title="Muestra lesión radiopaca con bordes definidos, con aspecto redondeado en zona de diente 36. Fuente tomada de WHO Classification of Tumours Editorial Board. Head and neck tumours. Lyon (France): International Agency for Research on Cancer; 2022. (WHO classification of tumours series, 5th ed.; vol. 9)." 
+            href="../IMG/cementoblastoma radiologia 1.png" data-lightbox="galeria1" ><img src="../IMG/cementoblastoma radiologia 1.png"></a>
+        </li>
+        <li id="dos" style="--i:1">
+            <a title="Tejido similar al cemento calcificado se deposita en trabéculas gruesas sobre una raíz intacta o parcialmente reabsorbida. El cemento formado es fuertemente basófilo y muestra numerosas líneas de inversión irregulares. Cementoblastos voluminosos y de aspecto activo bordean las trabéculas, están presentes en el estroma fibrovascular con numerosos vasos dilatados y grupos ocasionales de células multinucleadas similares a osteoclastos. Fuente tomada de WHO Classification of Tumours Editorial Board. Head and neck tumours. Lyon (France): International Agency for Research on Cancer; 2022. (WHO classification of tumours series, 5th ed.; vol. 9)." 
+            href="../IMG/cementoblastoma histopatologia 1.png" data-lightbox="galeria1"><img src="../IMG/cementoblastoma histopatologia 1.png"></a>
+        </li>
+        <li id="tres" style="--i:2">
+            <a title="Se asemeja histológicamente al osteoblastoma. La mayor parte de la lesión está compuesta por una masa de cemento celular denso que se asemeja al hueso líneas de inversión prominentes, fusionado con la superficie reabsorbida de la raíz del diente. Fuente tomada de WHO Classification of Tumours Editorial Board. Head and neck tumours. Lyon (France): International Agency for Research on Cancer; 2022. (WHO classification of tumours series, 5th ed.; vol. 9)." 
+            href="../IMG/cementoblastoma histopatologia 2.png" data-lightbox="galeria1" ><img src="../IMG/cementoblastoma histopatologia 2.png" alt=""></a>
+        </li>
+    </div>
+    </div>
+    <script>
+        var toggle=document.querySelector('.DespliegaInfo');
+        var menu=document.querySelector('.Despliega');
+        toggle.onclick=function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

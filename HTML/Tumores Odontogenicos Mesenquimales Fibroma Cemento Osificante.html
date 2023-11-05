@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumores Odontogenicos Mesenquimales Fibroma Cemento Osificante</title>
+    <link rel="stylesheet" href="styleTumoresPrimordial.css">
+    <script src="../JS/jquery.js"></script>
+    <link rel="stylesheet" href="../JS/lightbox.min.css">
+    <script src="../JS/lightbox-plus-jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+        $(".Definicion").hide()
+        $(".Localizacion").hide()
+        $(".Edad").hide()
+        $(".Sexo").hide()
+        $(".Clinica").hide()
+        $(".Patogenesis").hide()
+        $(".Tratamiento").hide()
+        $(".Pronostico").hide()
+        // $(".Inmunohistoquimica").hide()
+
+        $("#Definicion").click(function(){
+            $(".Definicion").fadeIn(500).mouseout(function(){
+            $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Localizacion").click(function(){
+            $(".Localizacion").fadeIn(500).mouseout(function(){
+            $(".Localizacion").slideUp(500)
+        })
+        })
+        $("#Edad").click(function(){
+            $(".Edad").fadeIn(500).mouseout(function(){
+            $(".Edad").slideUp(500)
+        })
+        })
+        $("#Sexo").click(function(){
+            $(".Sexo").fadeIn(500).mouseout(function(){
+            $(".Sexo").slideUp(500)
+        })
+        })
+        $("#Clinica").click(function(){
+            $(".Clinica").fadeIn(500).mouseout(function(){
+            $(".Clinica").slideUp(500)
+        })
+        })
+        // $("#Inmunohistoquimica").click(function(){
+        //     $(".Inmunohistoquimica").fadeIn(500).mouseout(function(){
+        //     $(".Inmunohistoquimica").slideUp(500)
+        // })
+        // })
+        $("#Patogenesis").click(function(){
+            $(".Patogenesis").fadeIn(500).mouseout(function(){
+            $(".Patogenesis").slideUp(500)
+        })
+        })
+        
+        $("#Tratamiento").click(function(){
+            $(".Tratamiento").fadeIn(500).mouseout(function(){
+            $(".Tratamiento").slideUp(500)
+        })
+        })
+        $("#Pronostico").click(function(){
+            $(".Pronostico").fadeIn(500).mouseout(function(){
+            $(".Pronostico").slideUp(500)
+        })
+        })
+        $(".DespliegaInfo").click(function(){
+            $(".Imagenes").fadeIn(500)
+        })
+        });
+        </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="Titulo_typing">
+            Tumores Odontogenicos Mesenquimales
+        </h1>
+        <p class="Subtitulo_typing">
+            Fibroma Cemento Osificante
+        </p>
+    </header>
+    <ul class="Opciones2">
+        <li id="Definicion">
+            Definición
+        </li>
+        <li id="Localizacion">
+            Localizacion
+        </li>
+        <li id="Edad">
+            Edad
+        </li>
+        <li id="Sexo">
+            Sexo
+        </li>
+        <li id="Clinica">
+            Clinica
+        </li>
+        <!-- <li id="Inmunohistoquimica">
+            Inmunohistoquimica
+        </li> -->
+        <li id="Patogenesis">
+            Patogenesis
+        </li>
+        <li id="Tratamiento">
+            Tratamiento
+        </li>
+        <li id="Pronostico">
+            Pronostico
+        </li>
+    </ul>
+    <div class="informacion">
+        <p class="Definicion">
+            Es una neoplasia fibroósea odontogénica benigna que surge en los maxilares
+y se caracteriza por la producción de  calcificaciones similares al cemento en un estroma fibroso.
+
+        </p>
+        <p class="Localizacion">
+            Está involucrada de mayor frecuencia en mandíbula, con una predilección por la región premolar y molar mandibular. 
+        </p>
+        <p class="Edad">
+            3/ 4 Década     
+        </p>
+        <p class="Sexo">
+            Predilección en mujeres 
+        </p>
+        <p class="Clinica">
+            Causa una expansión de la mandíbula asintomática. El crecimiento es lento, pero puede alcanzar un tamaño considerable si no se trata.
+        </p>
+        <!-- <p class="Inmunohistoquimica">
+            CKAE1/AE3 (+), CK 5(+), CK14(+), CK19(+), CK18(-) y CK20(-), VIMENTINA (+) AMS (+), PS 100 (-), ALPHA-SMA (-), Ki67 (<)2%
+        </p> -->
+        <p class="Patogenesis">
+            Mutaciones inactivadoras en el tumor gen supresor CDC73
+        </p>
+        <p class="Tratamiento">
+            Generalmente se trata mediante enucleación quirúrgica  y curetaje, ya que se desprende fácilmente 
+        </p>
+        <p class="Pronostico">
+            Aparece raramente, existe un único caso de posible transformación maligna
+        </p>
+    </div>
+    <div class="Despliega">
+        <!-- Imagen de inicio -->
+        <div class="DespliegaInfo">
+            <img src="../IMG/clickhere.gif" alt="">
+        </div>
+        <!-- Imagenes que despliega -->
+        <div class="Imagenes">
+        <li id="uno" style="--i:0">
+            <a title="Se observa imagena radiolucidia corticada bien definida, en zona de molar posterior del lado izquierdo .Fuente tomada de WHO Classification of Tumours Editorial Board. Head and neck tumours. Lyon (France): International Agency for Research on Cancer; 2022. (WHO classification of tumours series, 5th ed.; vol. 9)." 
+            href="../IMG/fibroma cemento osificante radiologia 1.png" data-lightbox="galeria1" ><img src="../IMG/fibroma cemento osificante radiologia 1.png"></a>
+        </li>
+        <li id="dos" style="--i:1">
+            <a title="Esta fotografía de bajo aumento muestra una masa tumoral sólida bien circunscrita. trabéculas de hueso y gotas de material similar al cemento se pueden ver formando dentro de un fondo de tejido conectivo fibroso celular. Fuente tomada de: Neville BW, Damm DD, Allen CM, Chi AC. Oral and Maxillofacial Pathology. 5." 
+            href="../IMG/fibroma cemento osificante histopatologia 1.png" data-lightbox="galeria1"><img src="../IMG/fibroma cemento osificante histopatologia 1.png"></a>
+        </li>
+        <li id="tres" style="--i:2">
+            <a title="Se observa una mezcla de hueso tejido y material similar al cemento. Observe las esférulas que muestran bordes periféricos (flecha).Fuente tomada de: Neville BW, Damm DD, Allen CM, Chi AC. Oral and Maxillofacial Pathology. 5." 
+            href="../IMG/fibroma cemento osificante histopatologia 2.png" data-lightbox="galeria1" ><img src="../IMG/fibroma cemento osificante histopatologia 2.png" alt=""></a>
+        </li>
+    </div>
+    </div>
+    <script>
+        var toggle=document.querySelector('.DespliegaInfo');
+        var menu=document.querySelector('.Despliega');
+        toggle.onclick=function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

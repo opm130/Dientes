@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queratoquiste Odontogenico</title>
+    <!-- <link rel="stylesheet" href="styleQueratoquisteOdon.css"> -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    
+    
+    <script src="../JS/jquery.js"></script>
+    <link rel="stylesheet" href="../JS/lightbox.min.css">
+    <script src="../JS/lightbox-plus-jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+        $(".Definicion").hide()
+        $(".Localizacion").hide()
+        $(".Edad").hide()
+        $(".Sexo").hide()
+        $(".Clinica").hide()
+        $(".Patogenesis").hide()
+        $(".Inmunohistoquimica").hide()
+        $(".Tratamiento").hide()
+        $(".Pronostico").hide()
+        // $(".Imagenes").hide()
+
+        $("#Definicion").click(function(){
+            $(".Definicion").fadeIn(500).mouseout(function(){
+            $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Localizacion").click(function(){
+            $(".Localizacion").fadeIn(500).mouseout(function(){
+            $(".Localizacion").slideUp(500)
+        })
+        })
+        $("#Edad").click(function(){
+            $(".Edad").fadeIn(500).mouseout(function(){
+            $(".Edad").slideUp(500)
+        })
+        })
+        $("#Sexo").click(function(){
+            $(".Sexo").fadeIn(500).mouseout(function(){
+            $(".Sexo").slideUp(500)
+        })
+        })
+        $("#Clinica").click(function(){
+            $(".Clinica").fadeIn(500).mouseout(function(){
+            $(".Clinica").slideUp(500)
+        })
+        })
+        $("#Patogenesis").click(function(){
+            $(".Patogenesis").fadeIn(500).mouseout(function(){
+            $(".Patogenesis").slideUp(500)
+        })
+        })
+        $("#Inmunohistoquimica").click(function(){
+            $(".Inmunohistoquimica").fadeIn(500).mouseout(function(){
+            $(".Inmunohistoquimica").slideUp(500)
+        })
+        })
+        
+        $("#Tratamiento").click(function(){
+            $(".Tratamiento").fadeIn(500).mouseout(function(){
+            $(".Tratamiento").slideUp(500)
+        })
+        })
+
+        $("#Pronostico").click(function(){
+            $(".Pronostico").fadeIn(500).mouseout(function(){
+            $(".Pronostico").slideUp(500)
+        })
+        })
+        $(".DespliegaInfo").click(function(){
+            $(".Imagenes").fadeIn(500)
+        })
+        });
+        </script>
+</head>
+
+<body id="pagina2">
+    <div class="container-bar">
+        <input type="checkbox" id="btn-social">
+        <label for="btn-social" class="fa fa-play"></label>
+            <div class="icon-social">
+                <a href="../HTML/index.html" class="inicio" >				
+                    <span id="title">inicio</span>
+                </a>
+                <a href="#" class="atras">				
+                    <span id="title">atras</span>
+                </a>	
+                
+            </div>
+        </div>
+    <header>
+        <h1 class="Titulo_typing">
+            Queratoquiste Odontogenico
+        </h1>
+    </header>
+    <ul class="OpcionesOrto">
+        <li id="Definicion">
+            Definición
+        </li>
+        <li id="Localizacion">
+            Localizacion
+        </li>
+        <li id="Edad">
+            Edad
+        </li>
+        <li id="Sexo">
+            Sexo
+        </li>
+        <li id="Clinica">
+            Clinica
+        </li>
+        <li id="Patogenesis">
+            Patogenesis
+        </li>
+        <li id="Inmunohistoquimica">
+            Inmunohistoquimica
+        </li>
+        <li id="Tratamiento">
+            Tratamiento
+        </li>
+        <li id="Pronostico">
+            Pronostico
+        </li>
+    </ul>
+    <div class="informacion">
+        <p class="Definicion">
+            Quiste odontogénico del desarrollo que se caracteriza por su recurrencia después de su tratamiento, asociado a dientes no erupcionados.
+        </p>
+        <p class="Localizacion">
+            Zona posterior mandibular.
+        </p>
+        <p class="Edad">
+            Segunda y tercera década de vida.
+        </p>
+        <p class="Sexo">
+            Hombres > mujeres.
+        </p>
+        <p class="Clinica">
+            Asintomáticos y poco menos del 50% tienen inflamación detectable. 
+            Destrucción ósea significativa pero mínima expansión ósea. Asociado al carcinoma de células basales o Síndrome de Gorlin. Tercer quiste odontogénico más común.
+            
+        </p>
+        <p class="Patogenesis">
+            Mutaciones del gen supresor de tumores PTCH1(9q22.3- q31), en los sindrómicos y hasta el 80% de los esporádicos.
+Activación de la vía de señalización SHH resultando en una aberrante proliferación epitelial.
+
+        </p>
+        <p class="Tratamiento">
+            Se realiza tratamiento quirúrgicos, farmacológico o combinados:
+Farmacológicos:
+●	Sustancia de Carnoy.
+●	Nitrógeno líquido.
+Quirúrgicos:
+●	Descompresión.
+●	Marsupialización.
+●	Enucleación.
+●	Recesión de márgenes óseos.
+●	Laser.
+No indicado:
+●	Resección en bloque.
+
+        </p>
+        <p class="Inmunohistoquimica">
+            CK 14(+), CK19(+), BCL2(+), P53(+), Ki67: 22%. 
+        </p>
+        <p class="Pronostico">
+            Muy recurrente: 20-30% , comportamiento tumoral.
+                </p>
+    </div>
+    <div class="Despliega">
+        <!-- Imagen de inicio -->
+        <div class="DespliegaInfo">
+            <img src="../IMG/clickhere.gif" alt="">
+        </div>
+        <!-- Imagenes que despliega -->
+        <div class="Imagenes">
+            <li id="uno" style="--i:0">
+                <a title="Se observa lesión  radiolúcida bien circunscrita a nivel apical de los incisivos, caninos y premolares bilateralmente. Fuente tomada de: Fotos cortesía:  Archivo del Servicio de Patología Oral y Maxilofacial de la Facultad de Odontología de la Universidad Nacional de Colombia." 
+                href="../IMG 2/queratoquiste odontogenico radiologia 1.png" data-lightbox="galeria1" ><img src="../IMG 2/queratoquiste odontogenico radiologia 1.png" width="400px" height="400px"></a>
+            </li>
+            <li id="dos" style="--i:1">
+                <a title="Se observa lesión  radiolúcida bien circunscrita multilocular en estrecha relación con molares inferiores.Fuente tomada de: WHO Classification of Tumours Editorial Board. Head and neck tumours. Lyon (France): International Agency for Research on Cancer; 2022. (WHO classification of tumours series, 5th ed.; vol. 9)." 
+                href="../IMG 2/queratoquiste odontogenico radiologia 2.png" data-lightbox="galeria1"><img src="../IMG 2/queratoquiste odontogenico radiologia 2.png" width="400" height="400"></a>
+            </li>
+            <li id="tres" style="--i:2">
+                <a title="Se observa lesión radiolúcida bien circunscrita rodeando la corona del tercer molar mandibular incluido.  Fuente tomada de:  Neville BW, Damm DD, Allen CM, Chi AC. Oral and Maxillofacial Pathology. 5a ed. Londres, Inglaterra: W B Saunders. " 
+                href="../IMG 2/queratoquiste odontogenico radiologia 3.png" data-lightbox="galeria1" ><img src="../IMG 2/queratoquiste odontogenico radiologia 3.png" alt=""></a>
+            </li>
+            <li id="cuatro" style="--i:3">
+                <a title="(Vista panorámica-vista con aumento): Se observa pared quística revestida por epitelio escamoso estratificado con 4-8 capas de células[1] con empalizada e hipercromatismo de los núcleos de la membrana  basal [2] y en la superficie capa de paraqueratina corrugada[3]. Estroma subepitelial fibrohialinizado con nodos de restos epiteliales odontogénicos[4].   Fuente tomada de: Fotos cortesía:  Archivo del Servicio de Patología Oral y Maxilofacial de la Facultad de Odontología de la Universidad Nacional de Colombia." 
+                href="../IMG 2/queratoquiste odontogenico histopatologia 1.png" data-lightbox="galeria1" ><img src="../IMG 2/queratoquiste odontogenico histopatologia 1.png" alt="" srcset=""></a>
+            </li>
+            <li id="cinco" style="--i:4">
+                <a title="" 
+                href="../IMG 2/queratoquiste odontogenico histopatologia 2.png" data-lightbox="galeria1" ><img src="../IMG 2/queratoquiste odontogenico histopatologia 2.png" alt="" srcset=""></a>
+            </li>
+            <li id="seis" style="--i:5">
+                <a title="(vista panorámica-vista con aumento): Se observa pared quística revestida por epitelio escamoso estratificado con 4-8 capas de células[1] con empalizada e hipercromatismo de los núcleos de la membrana  basal [2] y en la superficie capa de paraqueratina corrugada[3]. Estroma subepitelial fibrohialinizado con nodos de restos epiteliales odontogénicos[4].  Fuente tomada de: Fotos cortesía:  Archivo del Servicio de Patología Oral y Maxilofacial de la Facultad de Odontología de la Universidad Nacional de Colombia." 
+                href="../IMG 2/queratoquiste odontogenico histopatologia 3.png" data-lightbox="galeria1" ><img src="../IMG 2/queratoquiste odontogenico histopatologia 3.png" alt="" srcset=""></a>
+            </li>
+        </div>
+        </div>
+        <script>
+            var toggle=document.querySelector('.DespliegaInfo');
+            var menu=document.querySelector('.Despliega');
+            toggle.onclick=function(){
+                menu.classList.toggle('active');
+            }
+            
+        </script>
+    </body>
+    </html>
