@@ -65,8 +65,15 @@
     padding-top: 0;
     color: white;
     text-shadow: 5px 5px 10px rgb(0, 0, 0);
-
-
+}
+a{
+    text-decoration: underline rgb(62, 0, 62);
+    color: rgb(221, 221, 221);
+    text-shadow:5px 5px 10px rgb(0, 0, 0) ;
+}
+a:hover{
+    text-decoration: white underline;
+    color: rgb(214, 129, 214);
 }
 .Subtitulo{
     font-size:  35px;
@@ -138,7 +145,7 @@ footer p{
     border: 4px solid rgb(155,81,224);
     margin-left: 54%;
     margin-right: 5%;
-    margin-top: -50%;
+    margin-top: -52%;
     border-radius: 2%;
     box-shadow: 5px 5px 10px #000;
     transition: all ease .5s;
@@ -188,7 +195,7 @@ transform: perspective(100px) rotateY(0deg);
     border: 4px solid rgb(155,81,224);
     margin-left: 54%;
     margin-right: 5%;
-    margin-top: -35%;
+    margin-top: -36%;
     border-radius: 2%;
     box-shadow: 5px 5px 10px #000;
     transition: all ease .5s;
@@ -196,11 +203,11 @@ transform: perspective(100px) rotateY(0deg);
     transform: perspective(200px) rotateY(-3deg);
     transition: .2s;
 }
-.tablacomp:hover{
+.tablacompQ:hover{
 transform: perspective(100px) rotateY(0deg);
 }
 
-.tablacomp2:hover{
+.tablacompQ2:hover{
     transform: perspective(100px) rotateY(0deg);
 }
 .tiposQ{
