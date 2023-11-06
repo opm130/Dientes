@@ -123,27 +123,27 @@
  
  /* definicion */
  .Definicion{
-    width: 55%;
+    width: 75%;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22%;
+    top: 15%;
+    left: 11%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
         
  }
  .Localizacion{
-    width: 55%;
+    width: 75%;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 43%;
-    left: 22%;
+    top: 15%;
+    left: 11%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
@@ -155,8 +155,8 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22%;
+    top: 15%;
+    left: 27%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     background-image: linear-gradient(to right, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245, 0.7));
@@ -168,34 +168,34 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22%;
+    top: 15%;
+    left: 27%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
  }
  .Clinica{
-    width:55%;
+    width:75%;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22.5%;
+    top: 15%;
+    left: 11%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
  }  
  .Patogenesis{
-    width:55%;
+    width:75%;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22.5%;
+    top: 15%;
+    left: 11%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
@@ -207,34 +207,34 @@
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22.5%;
+    top: 15%;
+    left: 25%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
  }
  .Tratamiento{
-    width:55%;
+    width:84%;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22.5%;
+    top: 15%;
+    left: 11%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
  }
 .Pronostico{
-    width:55%;
+    width:75%;
     font-size: 25px;
     font-weight: normal;
     text-align: center;
     padding:  10%;
     position: absolute;
-    top: 20%;
-    left: 22.5%;
+    top: 15%;
+    left: 11%;
     text-align: justify;
     text-shadow: 5px  5px 5px black;
     
@@ -351,8 +351,8 @@ footer p{
     transform: rotate(calc(360deg/6*var(--i)));
     position: absolute;
     top: 70%;
-    left: 26%;
-    transform-origin: 180%;
+    left: 29%;
+    transform-origin: 150%;
 }
 .Despliega.active li img{
     width: 180px;
@@ -439,8 +439,8 @@ footer p{
         transform: rotate(calc(360deg/5*var(--i)));
         position: absolute;
         top: 70%;
-        left: 26%;
-        transform-origin: 180%;
+        left: 30%;
+        transform-origin: 150%;
     }
     .Despliega.active li img{
         width: 180px;
@@ -450,7 +450,7 @@ footer p{
 .quistenasopalatino{
 .Despliega li{
     position: absolute;
-    top: 74%;
+    top: 76%;
     left: 40%;
     list-style: none;
     transform-origin:150%;
@@ -473,7 +473,7 @@ footer p{
 }
 .DespliegaInfo img{
     position: absolute;
-    top: 71.5%;
+    top: 73%;
     left: 38%;
     width: 150px;
     height: 150px;
@@ -494,8 +494,8 @@ footer p{
     transform: rotate(calc(360deg/7*var(--i)));
     position: absolute;
     top: 70%;
-    left: 24%;
-    transform-origin: 180%;
+    left: 29.5%;
+    transform-origin: 150%;
 }
 .Despliega.active li img{
     width: 180px;
@@ -551,8 +551,8 @@ footer p{
         transform: rotate(calc(360deg/3*var(--i)));
         position: absolute;
         top: 70%;
-        left: 23%;
-        transform-origin: 160%;
+        left: 31%;
+        transform-origin: 130%;
     }
     .Despliega.active li img{
         width: 170px;
