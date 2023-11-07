@@ -8,11 +8,19 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
-#odontogenesisF{
-    background-image: url(../IMG/fondo\ tumor\ escamoso.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 350%;
-    color: white;
+#odontogenesisF:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 258%;
+  opacity: 0.6;
+  background-image: url(../IMG/fondo\ tumor\ escamoso.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
 .Titulo_typing{
     font-size:  50px;
@@ -21,6 +29,7 @@
    padding: 2%;
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
    animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
+   position: relative;
  }
  /* keyframes*/
 @keyframes teclear{
@@ -42,6 +51,7 @@
     text-align: center;
     padding:  5%;
     padding-top: 0;
+    position: relative;
 }
 .Subtitulo{
     font-size:  35px;
@@ -49,6 +59,7 @@
     text-align: center;
     padding-bottom: 5%;
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
+   position: relative;
 }
 #odontogenesis{
     position: absolute;
@@ -71,11 +82,24 @@ table td{
 }
 #epitelial{
     position: absolute;
-    top: 190%;
+    top: 188%;
     left: 22%;
 }
 #mesenquimal{
     position: absolute;
-    top: 190%;
+    top: 188%;
     left: 63%;
+}
+footer{
+    height: 10%;
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+    opacity: 0.7;
+    margin-top: 70%;
+}
+footer:hover{
+    opacity: .9; 
+}
+footer p{
+    text-align: center;
 }
