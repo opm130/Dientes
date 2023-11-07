@@ -10,16 +10,48 @@
 }
 /* FONDO */
 #pagina1{
-    background-image: url(../IMG/fondo2.jpg);
+    /* background: url(../IMG/fondo2.jpg);
     background-repeat: no-repeat;
-    background-size: 110% 900%;
+    background-size: cover; */
     color: white;
+    /* background-color: 0.0; */
+    /* opacity: 0.5; */
 }
+#pagina1:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 144%;
+  opacity: 0.6;
+  background-image: url(../IMG/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
 #pagina2{
-    background-image: url(../IMG/fondo5.jpg);
+    /* background-image: url(../IMG/fondo5.jpg);
     background-repeat: no-repeat;
-    background-size: 110% 900%;
+    background-size: cover; */
     color: white;
+    /* opacity: 0.2; */
+}
+#pagina2:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 140%;
+  opacity: 0.6;
+  background-image: url(../IMG/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
 /* TITULO */
  .Titulo_typing{
@@ -27,8 +59,9 @@
     font-weight: bold;
     text-align: center;
    padding: 2%;
-   text-shadow: 5px 3px 10px rgb(87, 36, 100);
+   text-shadow: 5px 5px 6px rgb(87, 36, 100);
    animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
+   position: relative;
  }
  .Titulo_typing2{
     font-size:  50px;
@@ -84,6 +117,7 @@
     left: 20%;
     width: 68%;
     cursor: pointer;
+
  }
 
  .Opciones li{
@@ -92,11 +126,11 @@
     align-items: center;
     font-size: 25px;
     font-weight: normal;
-    text-shadow: 5px  3px 10px rgb(87, 36, 100);
+    text-shadow: 5px  5px 6px rgb(87, 36, 100);
     transition: .2s;
  }
  .Opciones li:hover{
-    box-shadow: 2px 3px 5px black;
+    box-shadow: 5px 3px 5px black;
  }
 /* cinta opciones del ortoqueratinizado */
  .OpcionesAdenomatoide{
@@ -112,7 +146,7 @@
     align-items: center;
     font-size: 25px;
     font-weight: normal;
-    text-shadow: 5px  3px 10px rgb(87, 36, 100);
+    text-shadow: 5px  5px 6px rgb(87, 36, 100);
     transition: .2s;
  }
  .OpcionesAdenomatoide li:hover{
@@ -260,6 +294,17 @@ footer{
     height: 10%;
     background: black;
     color: whitesmoke;
+    position: relative;
+    opacity: .7;
+    margin-top: 54%;
+}
+.tquistes{
+    height: 10%;
+    background: black;
+    color: whitesmoke;
+    position: relative;
+    opacity: .7;
+    margin-top: 0%;
 }
 footer p{
     text-align: center;
@@ -325,8 +370,6 @@ footer p{
     box-shadow: 0 3px 4px black;
     color: #000;
     transition: 0.5s;
-    
-
 }
 .DespliegaInfo img{
     position: absolute;
@@ -344,6 +387,9 @@ footer p{
     box-shadow: 0 3px 4px black;
     transition: transform 1.25s ;
 }
+/* .DespliegaInfo img:hover{
+    background: url(../IMG/200w.webp);
+} */
 .Despliega.active .toggle{
     transform: rotate(360deg);
 }
@@ -357,6 +403,7 @@ footer p{
 .Despliega.active li img{
     width: 180px;
     height: 180px;
+    background: url(../IMG/200w.webp);
 }
 
 @keyframes waveAnim {

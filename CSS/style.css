@@ -9,15 +9,23 @@
     font-family: 'Oswald', sans-serif;
 }
 /* FONDO */
-/* body{
-    background: url("../IMG/fondo.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    } */
+
     #tumores{
-        background: url(../IMG/adenomatoide.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+        color: white;
+    }
+    #tumores:before{
+        content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 335.5%;
+  opacity: 0.6;
+  background-image: url(../IMG/adenomatoide.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
     }
     #mixtosf{
         background: url(../IMG/fondo_tumor_mixto_primordial.png);
@@ -40,31 +48,55 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     }
-    #quiste{
-        background: url("../IMG/fondo5.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+    #quiste:before{
+        content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 346%;
+  opacity: 0.6;
+  background-image: url(../IMG/fondo5.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
         }
-
+        #mesenquimales:before{
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 224%;
+            opacity: 0.6;
+            background-image: url(../IMG/fibroma\ cemento\ osificante.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
     
 /* TITULO */
  .Titulos{
     font-size:  50px;
     font-weight: bold;
     text-align: center;
-   padding: 10%;
+   margin: 10%;
    text-shadow: 5px 3px 4px rgb(87, 36, 100);
    color: white;
+   position: relative;
  }
 /*  TEXTO */
 .Texto{
     font-size: 25px;
     font-weight: normal;
     text-align: justify;
-    padding:  10%;
+    margin:  10%;
     padding-top: 0;
     color: white;
-    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    text-shadow: 5px 5px 7px rgb(0, 0, 0);
+    position: relative;
 }
 a{
     text-decoration: underline rgb(62, 0, 62);
@@ -82,17 +114,26 @@ a:hover{
     padding-bottom: 5%;
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
    color: white;
+   position: relative;
+   margin: 5%;
 
 }
 /* PIE DE PAGINA */
 footer{
     height: 10%;
-    background: rgb(0, 0, 0,.7);
+    background: rgb(0, 0, 0);
     color: whitesmoke;
+    opacity: 0.7;
+}
+footer:hover{
+    opacity: .9; 
 }
 footer p{
     text-align: center;
     
+}
+#Ftumores{
+    margin-top: 0%;
 }
 .botones{
     margin-left: 40%;
@@ -127,32 +168,34 @@ footer p{
     background-size: 100% 100%;
     color: whitesmoke ;
 }
-
 /* TUMORES Y QUISTES */
 .tablacomp{
+    width: 84%;
     border: 4px solid rgb(155,81,224);
-    margin-left: 16%;
-    margin-right: 22%;
-    border-radius: 2%;
+    margin-left: 13%;
+    /* margin-right: 22%; */
+    border-radius: 3%;
     box-shadow:  -5px -5px 10px #000;
     transition: all ease .5s;
     transform-style: preserve-3d;
     transform: perspective(200px) rotateY(3deg);
     transition: .2s;
-    
+    /* opacity: .5; */
+    background-image: linear-gradient(to left, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));
 }
 .tablacomp2{
+    width: 82%;
     border: 4px solid rgb(155,81,224);
-    margin-left: 54%;
-    margin-right: 5%;
-    margin-top: -52%;
+    margin-left: 7%;
+    /* margin-right: 5%; */
+    margin-top: 2%;
     border-radius: 2%;
     box-shadow: 5px 5px 10px #000;
     transition: all ease .5s;
     transform-style: preserve-3d;
     transform: perspective(200px) rotateY(-3deg);
     transition: .2s;
-    
+    background-image: linear-gradient(to left, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));
 }
 .Textot{
     font-size: 20px;
@@ -160,7 +203,7 @@ footer p{
     text-align: justify;
     padding:  5%;
     padding-top: 0;
-    text-shadow: 5px 7px 10px rgb(87, 36, 100);
+    text-shadow: 5px 7px 10px rgb(0, 0, 0);
     color: white;
  
     
@@ -181,6 +224,7 @@ transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
 }
 .tablacompQ{
+    width: 80%;
     border: 4px solid rgb(155,81,224);
     margin-left: 16%;
     margin-right: 22%;
@@ -190,18 +234,22 @@ transform: perspective(100px) rotateY(0deg);
     transform-style: preserve-3d;
     transform: perspective(200px) rotateY(3deg);
     transition: .2s;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));
 }
 .tablacompQ2{
+    width: 80%;
     border: 4px solid rgb(155,81,224);
-    margin-left: 54%;
-    margin-right: 5%;
-    margin-top: -36%;
+    margin-left: 10%;
+    margin-top: 3%;
     border-radius: 2%;
     box-shadow: 5px 5px 10px #000;
     transition: all ease .5s;
     transform-style: preserve-3d;
     transform: perspective(200px) rotateY(-3deg);
     transition: .2s;
+    position: relative;
+    background-image: linear-gradient(to left, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));
 }
 .tablacompQ:hover{
 transform: perspective(100px) rotateY(0deg);
@@ -213,47 +261,48 @@ transform: perspective(100px) rotateY(0deg);
 .tiposQ{
     font-size: 24px;
     color: white;
-    background:rgb(155,81,224) 82%;
+    background-image: linear-gradient(to left, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));
     border-radius: 15px ;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     cursor: pointer;
-    border-color: white;
+    border: white solid 2px;
     transition: .5s;
     transition-delay: .2s;
-    opacity: 0.5;
+    opacity: 0.9;
     margin-left: 42%;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-bottom: 0.4%;
 }
 .tiposQ:hover{
-font-size: 24px;
-letter-spacing: 2px;
+    margin-left: 41%;
+letter-spacing: 4px;
 opacity: 1;
-border: solid white 8px;
+border: solid white 2px;
 }
 .bt{
+    margin-top: 0%;
     margin-left: 31%;
     padding: 3%;
 }
 .tiposT{
     font-size: 24px;
     color: white;
-    background:rgb(155,81,224) 82%;
-    border-radius: 15px ;
+    background-image: linear-gradient(to left, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));    border-radius: 15px ;
     letter-spacing: 1px;
     cursor: pointer;
     border-color: white;
     transition: .5s;
     transition-delay: .2s;
-    opacity: 0.5;
+    opacity: 0.9;
     padding: 0.5%;
     margin: 2%;
-
 }
 .tiposT:hover{
-font-size: 24px;
-letter-spacing: 2px;
+    /* margin-left: 20%; */
+/* font-size: 24px; */
+letter-spacing: 4px;
 opacity: 1;
-border: solid white 8px;
+border: solid white 2px;
 }
 .espacio{
     padding: 1%;

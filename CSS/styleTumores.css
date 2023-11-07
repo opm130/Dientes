@@ -9,101 +9,235 @@
     font-family: 'Oswald', sans-serif;
 }
 /* FONDO */
-#fibromaC{
-    background-image: url(../IMG/fibroma\ cemento\ osificante.png);
-    color: white;
+
+#fibromaO:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
+    background-image: url(../IMG/fibroma\ odontogenico.jpg);
     background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    }
+#escamoso:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 155%;
+  opacity: 0.6;
+  background-image: url(../IMG/fondo\ tumor\ escamoso.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+#calcificante:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
+    background-image: url(../IMG/fondo\ calcificante\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
     background-size: cover;
 }
-#mixoma{
-    background-image: url(../IMG/fondo_mixoma.jpg);
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 110% 700%;}
-#fibromaO{
-        background-image: url(../IMG/fibroma\ odontogenico.jpg);
-        color: white;
-        background-repeat: no-repeat;
-        background-size: 110% 700%;}
-#escamoso{
-    background-image: url(../IMG/fondo\ tumor\ escamoso.jpg);
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 110% 700%;
-}
-#calcificante{
-    background-image: url(../IMG/fondo\ calcificante\ 2.jpeg);
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 110% 700%;
-}
-#uniquistico{
+#uniquistico:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
     background-image: url(../IMG/ameloblastoma\ uniquistico\ fondo.jpeg);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
 }
-#adenomatoide{
-    background-image: url(../IMG/fondo\ adenomatoide\ 2.jpg);
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 110% 700%;
-    /* text-shadow: 5px  5px 5px black; */
+#adenomatoide:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 155%;
+  opacity: 0.6;
+  background-image: url(../IMG/fondo\ adenomatoide\ 2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
-#convencional{
-    background-image: url(../IMG/convencional.jpg);
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 110% 700%;
+
+#convencional:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 155%;
+  opacity: 0.6;
+  background-image: url(../IMG/convencional.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  color: white;
 }
-#periferico{
-    background-image: url(../IMG/periferico.jpg);
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 110% 700%;
+#periferico:before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 155%;
+  opacity: 0.6;
+  background-image: url(../IMG/periferico.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 }
-#adenoide{
+#adenoide:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 159%;
+    opacity: 0.6;
     background-image: url(../IMG/fondo\ adenoide.png);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
 }
-#metastasico{
-    background-image: url(../IMG/metastasico\ 2.png);
-    color: white;
+#metastasico:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
+    background-image: url(../IMG/fondo\ adenoide.png);
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
 }
-#odontoma{
+#odontoma:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
     background-image: url(../IMG/odontomafondoo.png);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
 }
-#primordial{
+#primordial:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
     background-image: url(../IMG/primordial\ .png);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
 }
-#fibromaAmeloblastico{
+#fibromaAmeloblastico:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
     background-image: url(../IMG/fibroma\ ameloblastico\ .png);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
 }
-#celulasF{
+#celulasF:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
     background-image: url(../IMG/celulas\ fantasma.png);
-    color: white;
     background-repeat: no-repeat;
-    background-size: 110% 700%;
+    background-position: 50% 0;
+    background-size: cover;
     
 }
-#cementoblastoma{
+#cementoblastoma:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
     background-image: url(../IMG/IMG\ 2/cementoblastoma.png);
-    color: white;
     background-repeat: no-repeat;
-    background-size: cover}
+    background-position: 50% 0;
+    background-size: cover;
+    /*  */
+}
+#fibromaC:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
+    background-image: url(../IMG/fibroma\ cemento\ osificante.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+#mixoma:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 155%;
+    opacity: 0.6;
+    background-image: url(../IMG/fondo_mixoma.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
 /* TITULO */
  .Titulo_typing{
     font-size:  50px;
@@ -112,6 +246,7 @@
    padding: 2%;
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
    animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
+   position: relative;
  }
  /* .Titulo_typing2{
     font-size:  50px;
@@ -147,6 +282,7 @@
     text-align: center;
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
    animation: teclear 4s steps(30), efecto .9s step-end infinite alternate;
+   position: relative;
 }
    @keyframes teclear2{
     from{
@@ -353,7 +489,7 @@
     font-size: 25px;
     font-weight: normal;
     text-align: center;
-    padding:  10%;
+    padding:  0%;
     padding-top: 0;
 }
 .Subtitulo{
@@ -369,9 +505,17 @@ footer{
     height: 10%;
     background: black;
     color: whitesmoke;
+    position: relative;
+    margin-top:60%;
 }
 footer p{
     text-align: center;
+}
+#Ftumores{
+    margin-top: 57.2%;
+}
+#FtumoresM{
+    margin-top: 0;
 }
 .botones{
     margin-left: 40%;
