@@ -17,7 +17,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/fibroma\ odontogenico.jpg);
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 155%;
+  height: 157%;
   opacity: 0.6;
   background-image: url(../IMG/fondo\ tumor\ escamoso.jpg);
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/fondo\ calcificante\ 2.jpeg);
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/ameloblastoma\ uniquistico\ fondo.jpeg);
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 155%;
+  height: 157%;
   opacity: 0.6;
   background-image: url(../IMG/fondo\ adenomatoide\ 2.jpg);
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 155%;
+  height: 157%;
   opacity: 0.6;
   background-image: url(../IMG/convencional.jpg);
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 155%;
+  height: 157%;
   opacity: 0.6;
   background-image: url(../IMG/periferico.jpg);
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 159%;
+    height: 161%;
     opacity: 0.6;
     background-image: url(../IMG/fondo\ adenoide.png);
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/metastasico\ 2.png);
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/odontomafondoo.png);
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/primordial\ .png);
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/fibroma\ ameloblastico\ .png);
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/celulas\ fantasma.png);
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/IMG\ 2/cementoblastoma.png);
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/fibroma\ cemento\ osificante.png);
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 155%;
+    height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/fondo_mixoma.jpg);
     background-repeat: no-repeat;
@@ -512,7 +512,7 @@ footer p{
     text-align: center;
 }
 #Ftumores{
-    margin-top: 55.4%;
+    margin-top: 52.5%;
 }
 #FtumoresM{
     margin-top: 0;
@@ -978,6 +978,68 @@ footer p{
         top: 70%;
         left: 28.5%;
         transform-origin: 165%;
+    }
+    .Despliega.active li img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+
+
+/*  */
+.uniquisticoN{
+    .Despliega li{
+        position: absolute;
+        top: 80%;
+        left: 40%;
+        list-style: none;
+        transform-origin:150%;
+        transition: 0.5s;
+        transition-delay:calc(0.1s * var(--i)) ;
+        transform: rotate(0deg) translateX(80px);/*rotacion*/
+    }
+    .Despliega li img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 20%;
+        background: white;
+        transform: rotate(calc(360deg/ -9*var(--i)));/*rotacion*/
+        box-shadow: 0 3px 4px black;
+        color: #000;
+        transition: 0.5s;
+        
+    
+    }
+    .DespliegaInfo img{
+        position: absolute;
+        top: 77%;
+        left: 38%;
+        width: 150px;
+        height: 150px;
+        background: whitesmoke;
+        background-size: 100% 100%;
+        margin-left: 6%;   
+       
+        z-index: 10;
+        border-radius: 20%;
+        cursor: pointer;
+        box-shadow: 0 3px 4px black;
+        transition: transform 1.25s ;
+    }
+    .Despliega.active .toggle{
+        transform: rotate(360deg);
+    }
+    .Despliega.active li{
+        transform: rotate(calc(360deg/9*var(--i)));
+        position: absolute;
+        top: 75%;
+        left: 28%;
+        transform-origin: 160%;
     }
     .Despliega.active li img{
         width: 180px;
