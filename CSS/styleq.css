@@ -26,7 +26,7 @@
   width: 100%;
   height: 144%;
   opacity: 0.6;
-  background-image: url(../IMG/fondo2.jpg);
+  background-image: url(../IMG/fondo2.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -46,9 +46,9 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 140%;
+  height: 144%;
   opacity: 0.6;
-  background-image: url(../IMG/fondo2.jpg);
+  background-image: url(../IMG/fondo5.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -403,7 +403,7 @@ footer p{
 .Despliega.active li img{
     width: 180px;
     height: 180px;
-    background: url(../IMG/200w.webp);
+    /* background: url(../IMG/200w.webp); */
 }
 
 @keyframes waveAnim {
