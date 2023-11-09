@@ -105,6 +105,20 @@
         }
     
 /* TITULO */
+#three-container{
+    z-index:-0 ;
+    margin-top: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+	border-radius: 10px 15px 10px 10px;	
+
+}
+.Cuerpo{
+	background: #e4c4dc;
+  
+	
+}
  .Titulos{
     font-size:  50px;
     font-weight: bold;
@@ -125,12 +139,12 @@
     text-shadow: 5px 5px 7px rgb(0, 0, 0);
     position: relative;
 }
-a{
+.claseatarjetas{
     text-decoration: underline rgb(62, 0, 62);
     color: rgb(221, 221, 221);
     text-shadow:5px 5px 10px rgb(0, 0, 0) ;
 }
-a:hover{
+.claseatarjetas:hover{
     text-decoration: white underline;
     color: rgb(214, 129, 214);
 }
@@ -147,54 +161,41 @@ a:hover{
 }
 /* PIE DE PAGINA */
 footer{
-    height: 10%;
+    max-height: max-content;
+    width:100% ;
     background: rgb(0, 0, 0);
     color: whitesmoke;
     opacity: 0.7;
+    text-align: center;
+    
     /* width: 100%; */
 }
 footer:hover{
     opacity: .9; 
 }
-footer p{
-    text-align: center;
-    
-}
+
 #Ftumores{
     margin-top: 0%;
 }
-.botones{
+.botones{   
     margin-left: 40%;
-    padding-bottom: 10%;
-    
 }
 .boton{
-    padding-right: 10%;
-}
-.boton button{
-    width: 120px;
     height: 60px;
+    width: 350px;
+    position: relative;
+    padding: 10px;
+    margin-right: 5%;
     font-size: 30px;
-    
-}
-#ba{
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px 5px black ;
+    background: url("../IMG/200w.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     border-radius:0 10px 0 10px ;
-    border: none;
-    box-shadow: 5px 5px 10px 5px black ;
-    background: url("../IMG/200w.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     color: whitesmoke ;
-}
-
-#bb{
-    border: none;
-    box-shadow: 5px 5px 10px 5px black ;
-    border-radius: 15px 0 15px 0;
-    background: url("../IMG/200w.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: whitesmoke ;
+    z-index: 10000;
 }
 /* TUMORES Y QUISTES */
 .tablacomp{
@@ -475,7 +476,7 @@ border: solid white 2px;
 .Despliega.active li{
     transform: rotate(calc(360deg/3*var(--i)));
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
     .tiposQ{
         position: absolute;
         left: -75px;
@@ -503,12 +504,7 @@ border: solid white 2px;
         font-size: 20px;
         left: -25px;
     }
-    footer{
-        height: 22%;
-        position: absolute;
-        top:365%;
-        width: 400px;
-    }
+
     .ftumor{
         height: 22%;
         position: absolute;
@@ -530,5 +526,9 @@ border: solid white 2px;
     .bt{
         /* position: absolute; */
         margin-top: 387%;
+    }
+    .botones{
+        margin-top: 40%;
+        margin-left: 20%;
     }
 }

@@ -26,7 +26,7 @@ function init() {
   var slide2 = new Slide(width, height, 'in');
   var l2 = new THREE.ImageLoader();
 	l2.setCrossOrigin('Anonymous');
-	l2.load('../IMG/img2.png', function(img) {
+	l2.load('../IMG/img2.jpeg', function(img) {
 		slide2.setImage(img);
 	})
 	
@@ -387,7 +387,7 @@ function createTweenScrubber(tween, seekSpeed) {
   var _cx = 0;
 
   // desktop
-  var mouseDown = false;
+/*   var mouseDown = false;
   document.body.style.cursor = 'pointer';
 
   window.addEventListener('mousedown', function(e) {
@@ -427,5 +427,5 @@ function createTweenScrubber(tween, seekSpeed) {
 
     seek(dx);
     e.preventDefault();
-  });
+  }); */
 }

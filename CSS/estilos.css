@@ -4,17 +4,7 @@
 	box-sizing: border-box;
 	
 }
-#three-container{
-    z-index:-1000 ;
-    opacity: 0.8;
-    position: fixed;
-	border-radius: 10px 15px 10px 10px;	
 
-}
-.Cuerpo{
-	background: #e4c4dc;
-	
-}
 .container-bar{
 	width: 100%;
 	max-width: 50px;
