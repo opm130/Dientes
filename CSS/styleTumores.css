@@ -12,230 +12,230 @@
 
 #fibromaO:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/fibroma\ odontogenico.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
     }
 #escamoso:before{
     content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 157%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/fondo+tumor+escamoso.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
 }
 #calcificante:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
     height: 157%;
     opacity: 0.6;
     background-image: url(../IMG/fondo\ calcificante\ 2.jpeg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #uniquistico:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/ameloblastoma\ uniquistico\ fondo.jpeg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #adenomatoide:before{
     content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 157%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/fondo\ adenomatoide\ 2.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
 }
 
 #convencional:before{
     content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 157%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/convencional.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
   color: white;
 }
 #periferico:before{
     content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 157%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/periferico.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
 }
 #adenoide:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 161%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/fondo\ adenoide.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #metastasico:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/metastasico\ 2.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #odontoma:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/odontomafondoo.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #primordial:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/primordial\ .png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #fibromaAmeloblastico:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/fibroma\ ameloblastico\ .png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #celulasF:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/celulas\ fantasma.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
     
 }
 #cementoblastoma:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/cementoblastoma.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
     /*  */
 }
 #fibromaC:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/fibroma\ cemento\ osificante.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 #mixoma:before{
     content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    /* display: block; */
+    position: fixed;
+    /* left: 0; */
     top: 0;
     width: 100%;
-    height: 157%;
+    height: 100%;
     opacity: 0.6;
     background-image: url(../IMG/fondo_mixoma.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    /* background-position: 50% 0; */
     background-size: cover;
 }
 /* TITULO */
@@ -1044,5 +1044,309 @@ footer p{
     .Despliega.active li img{
         width: 180px;
         height: 180px;
+    }
+}
+@media (max-width: 400px) {
+    /* .Opciones{
+        position: absolute;
+        top:15%;
+        width: 97%;
+        left: 0%;
+    } */
+    .informacion{
+        position: absolute;
+        width: 85%;
+        top: 35%;
+    }
+    .Definicion{
+        position: absolute;
+        top:35%;
+
+    }
+    .Localizacion{
+        position: absolute;
+        top:35%;
+
+
+    }
+    .Edad{
+        position: absolute;
+        top:35%;
+
+    }
+    .Sexo{
+        position: absolute;
+        top:35%;
+
+    }
+    .Clinica{
+        position: absolute;
+        top:35%;
+
+    }
+    .Patogenesis{
+        position: absolute;
+        top:35%;
+
+    }
+    .Tratamiento{
+        position: absolute;
+        top:35%;
+
+    }
+    .Pronostico{
+        position: absolute;
+        top:35%;
+
+    }
+    .Despliega{
+        position: absolute;
+        top: 80%;
+    }
+    .Despliega.active li{
+        transform-origin: 180%;
+        top: 320px;
+        left: 25px;
+    }
+    .Despliega li{
+        left: 55px;
+        top: 315px;
+    }
+    .Despliega.active li img{
+        width: 90px;
+        height: 90px;
+        top: 120px;
+    }
+    .DespliegaInfo img{
+        position: absolute;
+        left: 120px;
+        width: 130px;
+        height: 130px;
+        top:300px;
+    }
+    #Ftumores{
+        height: 33%;
+        position: absolute;
+        top:140%;
+        width: 459px;
+    }
+    #FtumoresP{
+        height: 21%;
+        position: absolute;
+        top:160%;
+        width: 465px;
+    }
+    #FtumoresF{
+        height: 21%;
+        position: absolute;
+        top:160%;
+        width: 500px;
+    }
+    #FtumoresC{
+        height: 25%;
+        position: absolute;
+        top:160%;
+        width: 500px;
+    }
+    #FtumoresA{
+        height: 17%;
+        position: absolute;
+        top:270%;
+        width: 459px;
+    }
+    .ftumor{
+        height: 22%;
+        position: absolute;
+        top:700%;
+        width: 520px;
+    }
+    .tumorescamoso{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
+    }
+    .uniquistico{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
+    }
+    .convencional{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
+    }
+    .extraoseo{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
+    }
+    .adenoide{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
+    }
+    .fibromaA{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
+    }
+    .uniquisticoN{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 320px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 315px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+            top: 120px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+            top:300px;
+        }
     }
 }

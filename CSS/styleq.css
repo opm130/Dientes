@@ -10,47 +10,38 @@
 }
 /* FONDO */
 #pagina1{
-    /* background: url(../IMG/fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     color: white;
-    /* background-color: 0.0; */
-    /* opacity: 0.5; */
 }
 #pagina1:before{
     content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 144%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/fondo2.jpeg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
 }
 
 #pagina2{
-    /* background-image: url(../IMG/fondo5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     color: white;
-    /* opacity: 0.2; */
 }
 #pagina2:before{
     content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 144%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/fondo5.jpeg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
 }
 /* TITULO */
@@ -154,7 +145,9 @@
     
  }
 
- 
+ /* .informacion{
+    position: relative;
+ } */
  /* definicion */
  .Definicion{
     width: 75%;
@@ -350,7 +343,7 @@ footer p{
 }
   .Despliega li{
     position: absolute;
-    top: 74%;
+    top: 75%;
     left: 40%;
     list-style: none;
     transform-origin:150%;
@@ -604,5 +597,162 @@ footer p{
     .Despliega.active li img{
         width: 170px;
         height: 170px;
+    }
+}
+@media (max-width: 400px) {
+    /* .Opciones{
+        position: absolute;
+        top:15%;
+        width: 97%;
+        left: 0%;
+    } */
+    .informacion{
+        position: absolute;
+        width: 85%;
+        top: 35%;
+    }
+    .Definicion{
+        position: absolute;
+        top:35%;
+
+    }
+    .Localizacion{
+        position: absolute;
+        top:35%;
+
+
+    }
+    .Edad{
+        position: absolute;
+        top:35%;
+
+    }
+    .Sexo{
+        position: absolute;
+        top:35%;
+
+    }
+    .Clinica{
+        position: absolute;
+        top:35%;
+
+    }
+    .Patogenesis{
+        position: absolute;
+        top:35%;
+
+    }
+    .Tratamiento{
+        position: absolute;
+        top:35%;
+
+    }
+    .Pronostico{
+        position: absolute;
+        top:35%;
+
+    }
+    .Despliega{
+        position: absolute;
+        top: 80%;
+    }
+    .Despliega.active li{
+        transform-origin: 180%;
+        top: 25px;
+        left: 25px;
+    }
+    .Despliega li{
+        left: 55px;
+        top: 20px;
+    }
+    .Despliega.active li img{
+        width: 90px;
+        height: 90px;
+    }
+    .DespliegaInfo img{
+        position: absolute;
+        left: 120px;
+        width: 130px;
+        height: 130px;
+    }
+    footer{
+        height: 21%;
+        position: absolute;
+        top:100%;
+    }
+    .quistecolateral{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 25px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 20px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+        }
+    }
+    .quistenasopalatino{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 25px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 20px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+        }
+    }
+    .quistesgingivales{
+        .Despliega{
+            position: absolute;
+            top: 80%;
+        }
+        .Despliega.active li{
+            transform-origin: 180%;
+            top: 25px;
+            left: 25px;
+        }
+        .Despliega li{
+            left: 55px;
+            top: 20px;
+        }
+        .Despliega.active li img{
+            width: 90px;
+            height: 90px;
+        }
+        .DespliegaInfo img{
+            position: absolute;
+            left: 120px;
+            width: 130px;
+            height: 130px;
+        }
     }
 }

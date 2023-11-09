@@ -15,74 +15,92 @@
     }
     #tumores:before{
         content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
+  /* display: block; */
+  position: fixed;
+  /* left: 0; */
   top: 0;
   width: 100%;
-  height: 347.5%;
+  height: 100%;
   opacity: 0.6;
   background-image: url(../IMG/adenomatoide.png.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  /* background-position: 50% 0; */
   background-size: cover;
     }
-    #mixtosf{
+    #mixtosf:before{
         background: url(../IMG/fondo_tumor_mixto_primordial.png);
         background-repeat: no-repeat;
         background-size: cover;
+        content: ' ';
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
     }
 
-    #epiteliales{
+    #epiteliales:before{
         background: url(../IMG/fondo+tumor+escamoso.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        content: ' ';
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
     }
-    #epitelial_ameloblastoma{
+    #epitelial_ameloblastoma:before{
         background: url(../IMG/fondo_tumor_ameloblastoma_uniquistico.png);
         background-repeat: no-repeat;
         background-size: cover;
+        content: ' ';
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
     }
     #tiposquiste:before{
         content: ' ';
-        display: block;
-        position: absolute;
-        left: 0;
+        /* display: block; */
+        position: fixed;
+        /* left: 0; */
         top: 0;
         width: 100%;
-        height: 333%;
+        height: 100%;
         opacity: 0.6;
         background-image: url(../IMG/fondo2.jpeg);
         background-repeat: no-repeat;
-        background-position: 50% 0;
+        /* background-position: 50% 0; */
         background-size: cover;
     }
     #quiste:before{
         content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 346%;
-  opacity: 0.6;
-  background-image: url(../IMG/fondo5.jpeg);
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
+        /* display: block; */
+        position: fixed;
+        /* left: 0; */
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+        background-image: url(../IMG/fondo5.jpeg);
+        background-repeat: no-repeat;
+        /* background-position: 50% 0; */
+        background-size: cover;
         }
-        #mesenquimales:before{
+    #mesenquimales:before{
             content: ' ';
-            display: block;
-            position: absolute;
-            left: 0;
+            /* display: block; */
+            position: fixed;
+            /* left: 0; */
             top: 0;
             width: 100%;
-            height: 228.2%;
+            height: 100%;
             opacity: 0.6;
             background-image: url(../IMG/fibroma\ cemento\ osificante.png);
             background-repeat: no-repeat;
-            background-position: 50% 0;
+            /* background-position: 50% 0; */
             background-size: cover;
         }
     
@@ -133,6 +151,7 @@ footer{
     background: rgb(0, 0, 0);
     color: whitesmoke;
     opacity: 0.7;
+    /* width: 100%; */
 }
 footer:hover{
     opacity: .9; 
@@ -233,7 +252,7 @@ transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
 }
 .tablacompQ{
-    width: 80%;
+    width: 70%;
     border: 4px solid rgb(155,81,224);
     margin-left: 16%;
     margin-right: 22%;
@@ -247,7 +266,7 @@ transform: perspective(100px) rotateY(0deg);
     background-image: linear-gradient(to right, rgba(166, 102, 231, 0.7) ,rgba(255, 107,245,0.7));
 }
 .tablacompQ2{
-    width: 80%;
+    width: 70%;
     border: 4px solid rgb(155,81,224);
     margin-left: 10%;
     margin-top: 3%;
@@ -455,4 +474,61 @@ border: solid white 2px;
 }
 .Despliega.active li{
     transform: rotate(calc(360deg/3*var(--i)));
+}
+@media (max-width: 400px){
+    .tiposQ{
+        position: absolute;
+        left: -75px;
+    }
+    .tablacompQ2 {
+        width: 370px;
+        font-size: 20px;
+        left: -35px;
+    }
+    .tablacompQ {
+        width: 370px;
+        font-size: 20px;
+        left: -35px;
+    }
+    .tablacomp2{
+        position: absolute;
+        width: 500px;
+        font-size: 20px;
+        left: -35px;
+        top: 265%;
+    }
+    .tablacomp{
+        position: absolute;
+        width: 500px;
+        font-size: 20px;
+        left: -25px;
+    }
+    footer{
+        height: 22%;
+        position: absolute;
+        top:365%;
+        width: 400px;
+    }
+    .ftumor{
+        height: 22%;
+        position: absolute;
+        top:385%;
+        width: 520px;
+    }
+    #ftumor2{
+        height: 22%;
+        position: absolute;
+        top:260%;
+        width: 459px;
+    }
+    .tquistes{
+        height: 22%;
+        position: absolute;
+        top:650%;
+        width: 400px;
+    }
+    .bt{
+        /* position: absolute; */
+        margin-top: 387%;
+    }
 }
