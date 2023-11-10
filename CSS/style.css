@@ -111,8 +111,6 @@
     opacity: 0.6;
     position: fixed;
     top: 0;
-	border-radius: 10px 15px 10px 10px;	
-
 }
 .Cuerpo{
 	background: #e4c4dc;
@@ -478,8 +476,7 @@ border: solid white 2px;
 }
 @media (max-width: 600px){
     .tiposQ{
-        position: absolute;
-        left: -75px;
+        position:static;
     }
     .tablacompQ2 {
         width: 370px;
@@ -490,6 +487,10 @@ border: solid white 2px;
         width: 370px;
         font-size: 20px;
         left: -35px;
+    }
+    .Textot{
+        font-size: 14px;
+        text-align: left;
     }
     .tablacomp2{
         position: absolute;
@@ -528,7 +529,8 @@ border: solid white 2px;
         margin-top: 387%;
     }
     .botones{
-        margin-top: 40%;
+        margin-top: 30%;
         margin-left: 20%;
+        margin-bottom: 10%;
     }
 }
