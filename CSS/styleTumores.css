@@ -501,12 +501,18 @@
 }
 
 /* PIE DE PAGINA */
-footer{
+/* footer{
+    height: 10%;
+    background: black;
+    /* color: whitesmoke;
+    position: relative; */
+    
+
+.footerameloblastoma{
     height: 10%;
     background: black;
     color: whitesmoke;
     position: relative;
-    margin-top:60%;
 }
 footer p{
     text-align: center;
