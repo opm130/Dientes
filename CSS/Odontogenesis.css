@@ -91,12 +91,12 @@ table td{
     top: 188%;
     left: 63%;
 }
-footer{
+.footerodontogenesis{
     height: 10%;
     background: rgb(0, 0, 0);
     color: whitesmoke;
     opacity: 0.7;
-    margin-top: 80%;
+    margin-top: 120%;
 }
 footer:hover{
     opacity: .9; 
