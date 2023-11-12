@@ -11,8 +11,7 @@
 	position: fixed;
 	left: 0;
 	top: 40%;
-	position:fixed;
-	margin-top: 0%;
+	top: 25%;
 }
 .container-bar a{
 	display: block;
@@ -25,7 +24,7 @@
 	position: relative;
 	transition: all 500ms ease;
 	color: #fff;
-	position: relative;
+	
 }
 .container-bar a:hover{
 	background: #1c1c1c;

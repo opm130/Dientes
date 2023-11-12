@@ -14,6 +14,7 @@
 <script>
         $(document).ready(function(){
         $(".Definicion").hide()
+        $(".Subtipos").hide()
         $(".Localizacion").hide()
         $(".Edad").hide()
         $(".Sexo").hide()
@@ -26,6 +27,11 @@
         $("#Definicion").click(function(){
             $(".Definicion").fadeIn(500).mouseout(function(){
             $(".Definicion").slideUp(500)
+        })
+        })
+        $("#Subtipos").click(function(){
+            $(".Subtipos").fadeIn(500).mouseout(function(){
+            $(".Subtipos").slideUp(500)
         })
         })
         $("#Localizacion").click(function(){
@@ -102,6 +108,9 @@
         <li id="Definicion">
             Definición
         </li>
+        <li id="Subtipos">
+            Subtipos
+        </li>
         <li id="Localizacion">
             Localizacion
         </li>
@@ -130,8 +139,10 @@
     <div class="informacion">
         <p class="Definicion">
             Son tumores benignos, odontogénicos mixtos. Se consideran hamartomas que maduran a partir de tejido blando a tejidos predominantemente dentales duros con una pequeña cantidad de epitelio y ectomesénquima odontogénico residual <br>
-            SUBTIPOS: Odontoma complejo. Odontoma compuesto. 
-            
+        </p>
+        <p class="Subtipos">
+            Odontoma complejo <br>
+            Odontoma compuesto
         </p>
         <p class="Localizacion">
             Se desarrollan principalmente en la parte posterior del cuerpo de la mandíbula o en la zona anterior del maxilar superior. 

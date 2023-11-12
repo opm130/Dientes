@@ -168,8 +168,14 @@ footer{
     
     /* width: 100%; */
 }
+
+.footerindex{
+    
+    margin-top: 100px
+}
 footer:hover{
     opacity: .9; 
+    
 }
 
 #Ftumores{

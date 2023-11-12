@@ -162,6 +162,19 @@
     text-shadow: 5px  5px 5px black;
         
  }
+ .Subtipos{
+    width: 75%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding:  10%;
+    position: absolute;
+    top: 15%;
+    left: 11%;
+    text-align: justify;
+    text-shadow: 5px  5px 5px black;
+
+ }
  .Localizacion{
     width: 75%;
     font-size: 25px;
@@ -612,6 +625,11 @@ footer p{
         top: 35%;
     }
     .Definicion{
+        position: absolute;
+        top:35%;
+
+    }
+    .Subtipos{
         position: absolute;
         top:35%;
 
