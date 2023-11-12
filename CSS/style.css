@@ -157,6 +157,10 @@
    margin: 5%;
 
 }
+.Subtitulo2{
+    font-size:  25px;
+    
+}
 /* PIE DE PAGINA */
 footer{
     max-height: max-content;
