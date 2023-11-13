@@ -612,7 +612,7 @@ footer p{
         height: 170px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     /* .Opciones{
         position: absolute;
         top:15%;
@@ -694,7 +694,7 @@ footer p{
         height: 130px;
     }
     footer{
-        height: 21%;
+        height: 40%;
         position: absolute;
         top:100%;
     }

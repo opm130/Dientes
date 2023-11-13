@@ -1070,7 +1070,7 @@ footer p{
         height: 180px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     /* .Opciones{
         position: absolute;
         top:15%;
@@ -1084,54 +1084,51 @@ footer p{
     }
     .Definicion{
         position: absolute;
-        top:35%;
+        top:300px;
 
     }
     .Subtipos{
         position: absolute;
-        top:35%;
-
+        top:300px;
     }
     .Localizacion{
         position: absolute;
-        top:35%;
-
+        top:300px;
 
     }
     .Edad{
         position: absolute;
-        top:35%;
-
+        top:300px;
     }
     .Sexo{
         position: absolute;
-        top:35%;
-
+        top:300px;
     }
     .Clinica{
         position: absolute;
-        top:35%;
-
+        top:300px;
     }
     .Patogenesis{
         position: absolute;
-        top:35%;
-
+        top:300px;
     }
     .Tratamiento{
         position: absolute;
-        top:35%;
-
+        top:300px;
+        width: 400px;
     }
     .Pronostico{
         position: absolute;
-        top:35%;
-
+        top:300px;
+    }
+    .Inmunohistoquimica{
+        position: absolute;
+        top:300px;
     }
     .Despliega{
         position: absolute;
-        top: 80%;
-    }
+        top:300px;
+        }
     .Despliega.active li{
         transform-origin: 180%;
         top: 320px;
@@ -1154,34 +1151,40 @@ footer p{
         top:300px;
     }
     #Ftumores{
-        height: 33%;
-        position: absolute;
-        top:140%;
-        width: 459px;
+        height: 40%;
+    position: absolute;
+    top: 140%;
+    width: 465px;
     }
     #FtumoresP{
-        height: 21%;
+        height: 40%;
         position: absolute;
         top:160%;
         width: 465px;
     }
     #FtumoresF{
-        height: 21%;
+        height: 40%;
         position: absolute;
         top:160%;
         width: 500px;
     }
     #FtumoresC{
-        height: 25%;
+        height: 40%;
         position: absolute;
         top:160%;
         width: 500px;
     }
     #FtumoresA{
-        height: 17%;
+        height: 40%;
         position: absolute;
-        top:270%;
+        top:300%;
         width: 459px;
+    }
+    #FtumoresM{
+        height: 30%;
+        position: absolute;
+        top: 290%;
+        width: 465px;
     }
     .ftumor{
         height: 22%;

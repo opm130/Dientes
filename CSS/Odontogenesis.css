@@ -104,7 +104,7 @@ footer:hover{
 footer p{
     text-align: center;
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .Subtitulo{
         margin-left: 95px;
     }
@@ -124,6 +124,10 @@ footer p{
     #mesenquimal{
         top: 300%;
 
+    }
+    .footerodontogenesis{
+        height: 30%;
+        width: 450px;
     }
     footer{
         position: absolute;

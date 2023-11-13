@@ -484,7 +484,7 @@ border: solid white 2px;
 .Despliega.active li{
     transform: rotate(calc(360deg/3*var(--i)));
 }
-@media (max-width: 600px){
+@media (max-width: 380px){
     .tiposQ{
         position:static;
     }
@@ -493,6 +493,15 @@ border: solid white 2px;
         font-size: 20px;
         left: -35px;
     }
+    /* .Texto{
+        width: 500px;
+    }
+    .Titulos{
+        width: 500px;
+    }
+    .Subtitulo{
+        width: 600px;
+    } */
     .tablacompQ {
         width: 370px;
         font-size: 20px;
@@ -517,19 +526,20 @@ border: solid white 2px;
     }
 
     .ftumor{
-        height: 22%;
+        height: 25%;
         position: absolute;
         top:385%;
         width: 520px;
     }
     #ftumor2{
-        height: 22%;
-        position: absolute;
-        top:260%;
-        width: 459px;
+        height: 40%;
+    position: absolute;
+    top: 260%;
+    width: 465px;
+}
     }
     .tquistes{
-        height: 22%;
+        height: 30%;
         position: absolute;
         top:650%;
         width: 400px;
@@ -542,5 +552,8 @@ border: solid white 2px;
         margin-top: 30%;
         margin-left: 20%;
         margin-bottom: 10%;
+    }
+    footer{
+        width: 500px;
     }
 }
