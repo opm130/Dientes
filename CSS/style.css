@@ -163,20 +163,20 @@
 }
 /* PIE DE PAGINA */
 footer{
+    width:100%;
     max-height: max-content;
-    width:100% ;
+    
     background: rgb(0, 0, 0);
     color: whitesmoke;
     opacity: 0.7;
-    text-align: center;
-    
-    /* width: 100%; */
+    text-align: center;     
 }
 
-.footerindex{
+/* .footerindex{
     
     margin-top: 100px
-}
+} */
+
 footer:hover{
     opacity: .9; 
     
@@ -544,16 +544,10 @@ border: solid white 2px;
         top:650%;
         width: 400px;
     }
-    .bt{
-        /* position: absolute; */
-        margin-top: 387%;
-    }
+   
     .botones{
         margin-top: 30%;
         margin-left: 20%;
         margin-bottom: 10%;
     }
-    footer{
-        width: 500px;
-    }
-}
+    
