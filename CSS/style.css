@@ -132,6 +132,8 @@
     font-weight: normal;
     text-align: justify;
     margin:  10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     padding-top: 0;
     color: white;
     text-shadow: 5px 5px 7px rgb(0, 0, 0);
@@ -150,7 +152,7 @@
     font-size:  35px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 5%;
+
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
    color: white;
    position: relative;
@@ -168,27 +170,19 @@ footer{
     
     background: rgb(0, 0, 0);
     color: whitesmoke;
-    opacity: 0.7;
+  
+    opacity: .95;
     text-align: center;     
 }
-
-/* .footerindex{
-    
-    margin-top: 100px
-} */
-
-footer:hover{
-    opacity: .9; 
-    
-}
-
 #Ftumores{
     margin-top: 0%;
 }
 .botones{   
-    margin-left: 40%;
+    margin-left: 35%;
 }
 .boton{
+    display: block;
+    margin-bottom: 3%;
     height: 60px;
     width: 350px;
     position: relative;
@@ -308,7 +302,8 @@ transform: perspective(100px) rotateY(0deg);
     opacity: 0.9;
     margin-left: 42%;
     margin-top: 4%;
-    margin-bottom: 0.4%;
+    margin-bottom: 2.4%;
+    padding: 1%;
 }
 .tiposQ:hover{
     margin-left: 41%;
@@ -331,7 +326,7 @@ border: solid white 2px;
     transition: .5s;
     transition-delay: .2s;
     opacity: 0.9;
-    padding: 0.5%;
+    padding: 1.5%;
     margin: 2%;
 }
 .tiposT:hover{
@@ -537,7 +532,7 @@ border: solid white 2px;
     top: 260%;
     width: 465px;
 }
-    }
+ 
     .tquistes{
         height: 30%;
         position: absolute;
@@ -550,4 +545,4 @@ border: solid white 2px;
         margin-left: 20%;
         margin-bottom: 10%;
     }
-    
+}

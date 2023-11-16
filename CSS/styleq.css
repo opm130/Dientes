@@ -296,14 +296,6 @@
    text-shadow: 5px 3px 10px rgb(87, 36, 100);
 }
 /* PIE DE PAGINA */
-footer{
-    height: 10%;
-    background: black;
-    color: whitesmoke;
-    position: relative;
-    opacity: .7;
-    margin-top: 54%;
-}
 .tquistes{
     height: 10%;
     background: black;

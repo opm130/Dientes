@@ -248,15 +248,7 @@
    animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
    position: relative;
  }
- /* .Titulo_typing2{
-    font-size:  50px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 53%;
-   padding: 2%;
-   animation: teclear 2s steps(30), efecto .1s step-end infinite alternate;
-   text-decoration: none;
- } */
+
  a{
     color: black;
     text-shadow: 5px 3px 10px rgb(87, 36, 100);
