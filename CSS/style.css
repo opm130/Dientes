@@ -479,29 +479,12 @@ border: solid white 2px;
 .Despliega.active li{
     transform: rotate(calc(360deg/3*var(--i)));
 }
-@media (max-width: 380px){
+@media (max-width: 600px){
     .tiposQ{
-        position:static;
+       margin-left: 30%; 
+       
     }
-    .tablacompQ2 {
-        width: 370px;
-        font-size: 20px;
-        left: -35px;
-    }
-    /* .Texto{
-        width: 500px;
-    }
-    .Titulos{
-        width: 500px;
-    }
-    .Subtitulo{
-        width: 600px;
-    } */
-    .tablacompQ {
-        width: 370px;
-        font-size: 20px;
-        left: -35px;
-    }
+ 
     .Textot{
         font-size: 14px;
         text-align: left;
@@ -545,4 +528,16 @@ border: solid white 2px;
         margin-left: 20%;
         margin-bottom: 10%;
     }
+    .botones{   
+        margin-left: 4%;
+    }
+    .tablacompQ2 {
+        margin-left: 0;
+        width: 90%;
+    }
+    .tablacompQ{
+        margin-left: 0;
+        width: 90%;
+    }
+
 }
