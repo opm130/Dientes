@@ -64,7 +64,7 @@
 }
 #odontogenesis{
     position: relative;
-    left: 42%;
+    left: auto;
     
 }
 table{
@@ -78,14 +78,20 @@ table td{
     box-shadow:5px 3px 10px rgb(87, 36, 100) ;
     
 }
+.imagenes{
+    position: relative;
+    left: 34%;
+
+}
 #epitelial{
     position: relative;
-    left: 15%;
+    /* left: 15%; */
+    width: 190px;
 }
 #mesenquimal{
     position: relative;
- 
-    left: 43%;
+    /* left: 43%; */
+    width: 190px;
 }
 footer{
     width:100%;
@@ -99,30 +105,38 @@ footer{
 }
 
 
-@media (max-width: 380px) {
-    .Subtitulo{
-        margin-left: 95px;
-    }
+@media (max-width: 375px) {
     #odontogenesis{
         position: absolute;
         top: 165%;
-        margin-left: -80px;
+        left: 80px;
     }
     table{
-        padding-top: 140%;
-        width: 450px;
+        /* padding-top: 140%; */
+        top: 365px;
+        width: 390px;
     }
     #epitelial{
-        top: 300%;
-        margin-left: -80px;
+        top: 370px;
+        /* margin-left: -80px; */
+        width: 150px;
+    }
+    .imagenes{
+        position: relative;
+        left: 0;
+    
     }
     #mesenquimal{
-        top: 300%;
-
+        position: relative;
+        top: 370px;
+        left: 16%;
+        width: 150px;
     }
-    .footerodontogenesis{
-        height: 30%;
-        width: 450px;
+    footer{
+        position: absolute;
+        height: 47%;
+        width: 390px;
+        top: 350%;
     }
     /* footer{
         position: absolute;
