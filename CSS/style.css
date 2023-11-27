@@ -484,6 +484,31 @@ border: solid white 2px;
        margin-left: 30%; 
        
     }
+    footer{
+        position: absolute;
+        top: 278%;
+        width: 521px;
+
+    }
+    .Titulos{
+left: 20%;
+    }
+    .Texto{
+        width: 450px;
+
+    }
+    #Sub1{
+        width: 450px;
+    }
+    #Mix1{
+width: 450px;
+    }
+    /* .Subtitulo{
+        width: 450px;
+    } */
+    .bt{
+        margin-top: 250%;
+    }
  
     .Textot{
         font-size: 14px;
@@ -494,7 +519,7 @@ border: solid white 2px;
         width: 500px;
         font-size: 20px;
         left: -35px;
-        top: 265%;
+        top: 185%;
     }
     .tablacomp{
         position: absolute;
@@ -509,11 +534,11 @@ border: solid white 2px;
         top:385%;
         width: 520px;
     }
-    #ftumor2{
-        height: 40%;
+    .ftumor2{
+        height: 29%;
     position: absolute;
-    top: 260%;
-    width: 465px;
+    top: 300%;
+    width: 469px;
 }
  
     .tquistes{

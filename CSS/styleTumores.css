@@ -1064,7 +1064,7 @@ footer{
         height: 180px;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 600px) {
     /* .Opciones{
         position: absolute;
         top:15%;
@@ -1078,46 +1078,53 @@ footer{
     }
     .Definicion{
         position: absolute;
-        top:300px;
-
+        top:260px;
+        width: 420px;
     }
     .Subtipos{
         position: absolute;
-        top:300px;
+        top:260px;
+                width: 420px;
     }
     .Localizacion{
         position: absolute;
-        top:300px;
-
+        top:260px;
+        width: 420px;
     }
     .Edad{
         position: absolute;
-        top:300px;
+        top:260px;;
+        width: 420px;
     }
     .Sexo{
         position: absolute;
-        top:300px;
+        top:260px;
+        width: 420px;
     }
     .Clinica{
         position: absolute;
-        top:300px;
+        top:260px;
+        width: 420px;
     }
     .Patogenesis{
         position: absolute;
-        top:300px;
+        top:260px;
+        width: 420px;
     }
     .Tratamiento{
         position: absolute;
-        top:300px;
-        width: 400px;
-    }
+        top:260px;
+        width: 420px;
+        }
     .Pronostico{
         position: absolute;
-        top:300px;
+        top:260px;
+        width: 420px;
     }
     .Inmunohistoquimica{
         position: absolute;
-        top:300px;
+        top:260px;
+        width: 420px;
     }
     .Despliega{
         position: absolute;
@@ -1125,12 +1132,12 @@ footer{
         }
     .Despliega.active li{
         transform-origin: 180%;
-        top: 320px;
-        left: 25px;
+        top: 440px;
+        left: 67px;
     }
     .Despliega li{
-        left: 55px;
-        top: 315px;
+        left: 100px;
+        top: 455px;
     }
     .Despliega.active li img{
         width: 90px;
@@ -1139,10 +1146,10 @@ footer{
     }
     .DespliegaInfo img{
         position: absolute;
-        left: 120px;
+        left: 165px;
         width: 130px;
         height: 130px;
-        top:300px;
+        top:440px;
     }
     #Ftumores{
         height: 40%;
@@ -1189,16 +1196,16 @@ footer{
     .tumorescamoso{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1207,25 +1214,25 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
     .uniquistico{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1234,25 +1241,25 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
     .convencional{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1261,25 +1268,25 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
     .extraoseo{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1288,25 +1295,25 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
     .adenoide{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1315,25 +1322,25 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
     .fibromaA{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1342,25 +1349,25 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
     .uniquisticoN{
         .Despliega{
             position: absolute;
-            top: 80%;
-        }
+            top:300px;
+            }
         .Despliega.active li{
             transform-origin: 180%;
-            top: 320px;
-            left: 25px;
+            top: 440px;
+            left: 67px;
         }
         .Despliega li{
-            left: 55px;
-            top: 315px;
+            left: 100px;
+            top: 455px;
         }
         .Despliega.active li img{
             width: 90px;
@@ -1369,10 +1376,10 @@ footer{
         }
         .DespliegaInfo img{
             position: absolute;
-            left: 120px;
+            left: 165px;
             width: 130px;
             height: 130px;
-            top:300px;
+            top:440px;
         }
     }
 }
